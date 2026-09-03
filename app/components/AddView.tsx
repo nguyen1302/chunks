@@ -18,7 +18,7 @@ const cap: React.CSSProperties = {
 const bare: React.CSSProperties = { border: "none", background: "none", color: "#171614" };
 
 export default function AddView({ onAdded }: { onAdded: () => void }) {
-  const [f, setF] = useState({ expr: "", meaning: "", example: "", source: "", past: "" });
+  const [f, setF] = useState({ expr: "", meaning: "", example: "", source: "", synonyms: "", past: "" });
   const [saved, setSaved] = useState("");
   const [saving, setSaving] = useState(false);
   const [recent, setRecent] = useState<{ text: string; meaning: string }[]>([]);
@@ -38,7 +38,13 @@ export default function AddView({ onAdded }: { onAdded: () => void }) {
       const res = await fetch("/api/expressions", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text: f.expr, meaning: f.meaning, example: f.example, source: f.source }),
+        body: JSON.stringify({
+          text: f.expr,
+          meaning: f.meaning,
+          example: f.example,
+          source: f.source,
+          synonyms: f.synonyms,
+        }),
       });
       if (!res.ok) return;
       const created: Expression = await res.json();
@@ -56,7 +62,7 @@ export default function AddView({ onAdded }: { onAdded: () => void }) {
       }
       setRecent((r) => [{ text: created.text, meaning: created.meaning }, ...r].slice(0, 5));
       setSaved(created.text);
-      setF({ expr: "", meaning: "", example: "", source: "", past: "" });
+      setF({ expr: "", meaning: "", example: "", source: "", synonyms: "", past: "" });
       onAdded();
       setTimeout(() => ref.current?.focus(), 40);
       setTimeout(() => setSaved(""), 2600);
@@ -131,6 +137,20 @@ export default function AddView({ onAdded }: { onAdded: () => void }) {
             onChange={(e) => setF({ ...f, source: e.target.value })}
             placeholder="YouTube · article · URL"
             style={{ ...bare, fontFamily: "'IBM Plex Mono', monospace", fontSize: 13, padding: "4px 0" }}
+          />
+        </label>
+        <label style={label}>
+          <span style={cap}>
+            Synonyms{" "}
+            <span style={{ textTransform: "none", letterSpacing: 0, color: "#C3BEB2" }}>
+              optional · comma-separated
+            </span>
+          </span>
+          <input
+            value={f.synonyms}
+            onChange={(e) => setF({ ...f, synonyms: e.target.value })}
+            placeholder="hit a snag, run into trouble"
+            style={{ ...bare, fontSize: 17, padding: "2px 0" }}
           />
         </label>
         <label style={label}>

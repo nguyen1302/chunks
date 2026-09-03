@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from "react";
 import type { ExpressionWithStats } from "@/lib/types";
 import { weaknessWeight, pickWeightedIndex } from "@/lib/practice";
 import SourceLink from "./SourceLink";
+import SynonymTags from "./SynonymTags";
 
 const btnDark: React.CSSProperties = {
   border: "1px solid #171614",
@@ -153,6 +154,7 @@ export default function FlashcardView({ expressions }: { expressions: Expression
                 {current.example || "—"}
               </span>
             </div>
+            {current.synonyms.length > 0 && <SynonymTags synonyms={current.synonyms} />}
             {current.source && <SourceLink source={current.source} />}
           </div>
         ) : (

@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { createExpression, getExpressionsWithStats } from "@/lib/notion";
 import { todayStr } from "@/lib/dates";
+import { parseSynonyms } from "@/lib/synonyms";
 import { errorResponse } from "@/lib/http";
 
 export const runtime = "nodejs";
@@ -25,6 +26,7 @@ export async function POST(req: Request) {
         meaning: (body?.meaning ?? "").trim(),
         example: (body?.example ?? "").trim(),
         source: (body?.source ?? "").trim(),
+        synonyms: parseSynonyms(body?.synonyms ?? ""),
       },
       todayStr(),
     );

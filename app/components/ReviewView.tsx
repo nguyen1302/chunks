@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import type { Expression, ReviewExample } from "@/lib/types";
 import { formatShort } from "@/lib/dates";
 import SourceLink from "./SourceLink";
+import SynonymTags from "./SynonymTags";
 
 type Props = {
   queue: Expression[] | null;
@@ -285,6 +286,7 @@ export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Pr
                 {cur.example || "—"}
               </span>
             </Field>
+            {cur.synonyms.length > 0 && <SynonymTags synonyms={cur.synonyms} />}
             {cur.source && <SourceLink source={cur.source} />}
           </div>
 

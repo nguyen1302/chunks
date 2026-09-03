@@ -30,6 +30,7 @@ databases with the integration.
 | `Meaning`          | Rich text |                                         |
 | `Original Example` | Rich text |                                         |
 | `Source`           | Rich text | optional                                |
+| `Synonyms`         | Rich text | optional; comma-separated synonyms      |
 | `Last Review`      | Date      | empty until first review                |
 | `Review Count`     | Number    | total completed reviews                 |
 | `Review Due`       | Date      | next due date (new expression = today)  |

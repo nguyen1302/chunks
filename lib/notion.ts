@@ -2,6 +2,7 @@ import { Client } from "@notionhq/client";
 import type { Expression, ExpressionWithStats, ReviewExample, ReviewResult, Stats } from "./types";
 import { computeNextReview, newExpressionFields } from "./schedule";
 import { diffDays } from "./dates";
+import { parseSynonyms, formatSynonyms } from "./synonyms";
 
 const DB_EXPR = () => requireEnv("NOTION_DB_EXPRESSIONS");
 const DB_EXAMPLES = () => requireEnv("NOTION_DB_REVIEW_EXAMPLES");
@@ -30,6 +31,7 @@ export function mapExpression(page: any): Expression {
     meaning: plain(p.Meaning?.rich_text),
     example: plain(p["Original Example"]?.rich_text),
     source: plain(p.Source?.rich_text),
+    synonyms: parseSynonyms(plain(p.Synonyms?.rich_text)),
     lastReview: p["Last Review"]?.date?.start ?? null,
     reviewCount: p["Review Count"]?.number ?? 0,
     reviewDue: p["Review Due"]?.date?.start ?? page.created_time.slice(0, 10),
@@ -72,7 +74,7 @@ export async function getExpression(id: string): Promise<Expression> {
 }
 
 export async function createExpression(
-  input: { text: string; meaning: string; example: string; source: string },
+  input: { text: string; meaning: string; example: string; source: string; synonyms?: string[] },
   today: string,
 ): Promise<Expression> {
   const f = newExpressionFields(today);
@@ -83,9 +85,28 @@ export async function createExpression(
       Meaning: { rich_text: richText(input.meaning) },
       "Original Example": { rich_text: richText(input.example) },
       Source: { rich_text: richText(input.source) },
+      Synonyms: { rich_text: richText(formatSynonyms(input.synonyms ?? [])) },
       "Review Due": { date: { start: f.reviewDue } },
       "Review Count": { number: f.reviewCount },
       "Review Level": { number: f.level },
+    },
+  });
+  return mapExpression(page);
+}
+
+// Update an expression's editable content fields (never touches review state).
+export async function updateExpression(
+  id: string,
+  input: { text: string; meaning: string; example: string; source: string; synonyms: string[] },
+): Promise<Expression> {
+  const page = await notion().pages.update({
+    page_id: id,
+    properties: {
+      Expression: { title: richText(input.text) },
+      Meaning: { rich_text: richText(input.meaning) },
+      "Original Example": { rich_text: richText(input.example) },
+      Source: { rich_text: richText(input.source) },
+      Synonyms: { rich_text: richText(formatSynonyms(input.synonyms)) },
     },
   });
   return mapExpression(page);

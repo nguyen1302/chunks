@@ -2,7 +2,9 @@
 import { useMemo, useState } from "react";
 import type { ExpressionWithStats, ReviewExample } from "@/lib/types";
 import { formatShort } from "@/lib/dates";
+import { formatSynonyms } from "@/lib/synonyms";
 import SourceLink from "./SourceLink";
+import SynonymTags from "./SynonymTags";
 
 type Sort = "newest" | "hardest" | "due";
 
@@ -121,6 +123,38 @@ function LibraryRow({
   const [loading, setLoading] = useState(false);
   const [draft, setDraft] = useState("");
   const [saving, setSaving] = useState(false);
+  const [editing, setEditing] = useState(false);
+  const [form, setForm] = useState({ text: "", meaning: "", example: "", source: "", synonyms: "" });
+  const [editSaving, setEditSaving] = useState(false);
+
+  function startEdit() {
+    setForm({
+      text: e.text,
+      meaning: e.meaning,
+      example: e.example,
+      source: e.source,
+      synonyms: formatSynonyms(e.synonyms),
+    });
+    setEditing(true);
+  }
+
+  async function saveEdit() {
+    if (editSaving || !form.text.trim()) return;
+    setEditSaving(true);
+    try {
+      const res = await fetch(`/api/expressions/${e.id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (res.ok) {
+        setEditing(false);
+        onReload();
+      }
+    } finally {
+      setEditSaving(false);
+    }
+  }
 
   async function loadHistory() {
     setLoading(true);
@@ -195,13 +229,61 @@ function LibraryRow({
               gap: 14,
             }}
           >
-            <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
-              <span style={cap}>Original example</span>
-              <span style={{ fontFamily: "'Instrument Serif', serif", fontSize: 18, fontStyle: "italic", color: "#3A3730" }}>
-                {e.example || "—"}
-              </span>
-            </div>
-            {e.source && <SourceLink source={e.source} />}
+            {editing ? (
+              <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+                <EditField label="Expression" value={form.text} onChange={(v) => setForm({ ...form, text: v })} serif />
+                <EditField label="Meaning" value={form.meaning} onChange={(v) => setForm({ ...form, meaning: v })} />
+                <EditField label="Original example" value={form.example} onChange={(v) => setForm({ ...form, example: v })} serif />
+                <EditField label="Source" value={form.source} onChange={(v) => setForm({ ...form, source: v })} mono />
+                <EditField
+                  label="Synonyms (comma-separated)"
+                  value={form.synonyms}
+                  onChange={(v) => setForm({ ...form, synonyms: v })}
+                />
+                <div style={{ display: "flex", gap: 10, marginTop: 4 }}>
+                  <button
+                    onClick={saveEdit}
+                    disabled={editSaving || !form.text.trim()}
+                    style={{
+                      border: "1px solid #171614",
+                      background: editSaving || !form.text.trim() ? "#B4AFA3" : "#171614",
+                      color: "#FBFAF7",
+                      fontSize: 13,
+                      padding: "8px 16px",
+                      borderRadius: 2,
+                      cursor: editSaving || !form.text.trim() ? "default" : "pointer",
+                    }}
+                  >
+                    {editSaving ? "Saving…" : "Save"}
+                  </button>
+                  <button
+                    onClick={() => setEditing(false)}
+                    style={{ border: "1px solid #DCD7CB", background: "none", fontSize: 13, padding: "8px 16px", borderRadius: 2, cursor: "pointer", color: "#171614" }}
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            ) : (
+              <>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 16 }}>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 4, flex: 1 }}>
+                    <span style={cap}>Original example</span>
+                    <span style={{ fontFamily: "'Instrument Serif', serif", fontSize: 18, fontStyle: "italic", color: "#3A3730" }}>
+                      {e.example || "—"}
+                    </span>
+                  </div>
+                  <button
+                    onClick={startEdit}
+                    style={{ border: "none", background: "none", fontSize: 13, color: "#A9563C", cursor: "pointer", padding: 0 }}
+                  >
+                    Edit
+                  </button>
+                </div>
+                {e.synonyms.length > 0 && <SynonymTags synonyms={e.synonyms} />}
+                {e.source && <SourceLink source={e.source} />}
+              </>
+            )}
           </div>
 
           <div style={{ marginTop: 18 }}>
@@ -260,5 +342,39 @@ function LibraryRow({
         </div>
       )}
     </div>
+  );
+}
+
+function EditField({
+  label,
+  value,
+  onChange,
+  serif,
+  mono,
+}: {
+  label: string;
+  value: string;
+  onChange: (v: string) => void;
+  serif?: boolean;
+  mono?: boolean;
+}) {
+  const font = serif ? "'Instrument Serif', serif" : mono ? "'IBM Plex Mono', monospace" : "inherit";
+  return (
+    <label style={{ display: "flex", flexDirection: "column", gap: 5 }}>
+      <span style={cap}>{label}</span>
+      <input
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        style={{
+          border: "1px solid #E3DCCE",
+          background: "#FBFAF7",
+          borderRadius: 2,
+          padding: "8px 10px",
+          fontFamily: font,
+          fontSize: mono ? 13 : 16,
+          color: "#171614",
+        }}
+      />
+    </label>
   );
 }
