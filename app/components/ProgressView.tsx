@@ -45,7 +45,7 @@ export default function ProgressView({
       >
         <div style={tile}>
           <span style={big}>{stats.total}</span>
-          <span style={sub}>expressions collected</span>
+          <span style={sub}>words & phrases collected</span>
         </div>
         <div style={tile}>
           <span style={big}>{stats.sentences}</span>

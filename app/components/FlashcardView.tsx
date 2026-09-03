@@ -91,7 +91,7 @@ export default function FlashcardView({ expressions }: { expressions: Expression
         <h1 style={{ margin: 0, fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: 40 }}>
           No cards yet.
         </h1>
-        <p style={{ margin: 0, fontSize: 15, color: "#78746B" }}>Add an expression to start practicing.</p>
+        <p style={{ margin: 0, fontSize: 15, color: "#78746B" }}>Add a word or phrase to start practicing.</p>
       </div>
     );
   }

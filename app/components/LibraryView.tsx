@@ -69,7 +69,7 @@ export default function LibraryView({
         <input
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="Search expression or meaning…"
+          placeholder="Search word, phrase, or meaning…"
           style={{ ...control, flex: 1, minWidth: 200 }}
         />
         <select value={sort} onChange={(e) => setSort(e.target.value as Sort)} style={control}>
@@ -82,9 +82,9 @@ export default function LibraryView({
           Needs work
         </label>
       </div>
-      <div style={{ ...cap, marginBottom: 20 }}>{rows.length} expressions</div>
+      <div style={{ ...cap, marginBottom: 20 }}>{rows.length} words & phrases</div>
 
-      {rows.length === 0 && <div style={{ color: "#A79F90", fontSize: 14 }}>No expressions match.</div>}
+      {rows.length === 0 && <div style={{ color: "#A79F90", fontSize: 14 }}>No words or phrases match.</div>}
 
       <div style={{ display: "flex", flexDirection: "column" }}>
         {rows.map((e) => (
@@ -231,7 +231,7 @@ function LibraryRow({
           >
             {editing ? (
               <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-                <EditField label="Expression" value={form.text} onChange={(v) => setForm({ ...form, text: v })} serif />
+                <EditField label="Word or phrase" value={form.text} onChange={(v) => setForm({ ...form, text: v })} serif />
                 <EditField label="Meaning" value={form.meaning} onChange={(v) => setForm({ ...form, meaning: v })} />
                 <EditField label="Original example" value={form.example} onChange={(v) => setForm({ ...form, example: v })} serif />
                 <EditField label="Source" value={form.source} onChange={(v) => setForm({ ...form, source: v })} mono />

@@ -156,11 +156,11 @@ export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Pr
           Nothing to review yet.
         </h1>
         <p style={{ margin: 0, fontSize: 15, color: "#78746B" }}>
-          Add the first expression you picked up today.
+          Add the first word or phrase you picked up today.
         </p>
         <div>
           <button onClick={goAdd} style={btnDark}>
-            Add expression
+            Add word or phrase
           </button>
         </div>
       </div>
@@ -203,7 +203,7 @@ export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Pr
           color: "#B4AFA3",
         }}
       >
-        Use this expression
+        Use this word or phrase
       </p>
       <h1
         style={{

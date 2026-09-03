@@ -87,16 +87,16 @@ export default function AddView({ onAdded }: { onAdded: () => void }) {
       <h1
         style={{ margin: "0 0 36px", fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: 36 }}
       >
-        New expression
+        New word or phrase
       </h1>
       <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
         <label style={label}>
-          <span style={cap}>Expression</span>
+          <span style={cap}>Word or phrase</span>
           <input
             ref={ref}
             value={f.expr}
             onChange={(e) => setF({ ...f, expr: e.target.value })}
-            placeholder="run into a problem"
+            placeholder="run into a problem · resilient"
             style={{ ...bare, fontFamily: "'Instrument Serif', serif", fontSize: 30, padding: "2px 0" }}
           />
         </label>
@@ -164,7 +164,7 @@ export default function AddView({ onAdded }: { onAdded: () => void }) {
             value={f.past}
             onChange={(e) => setF({ ...f, past: e.target.value })}
             rows={3}
-            placeholder={"Sentences you've already used with this expression…\nOne per line."}
+            placeholder={"Sentences you've already used with this word or phrase…\nOne per line."}
             style={{
               ...bare,
               resize: "none",
