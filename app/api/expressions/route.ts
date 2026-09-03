@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { createExpression } from "@/lib/notion";
 import { todayStr } from "@/lib/dates";
+import { errorResponse } from "@/lib/http";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -20,7 +21,7 @@ export async function POST(req: Request) {
       todayStr(),
     );
     return NextResponse.json(created, { status: 201 });
-  } catch {
-    return NextResponse.json({ error: "Failed to create expression" }, { status: 500 });
+  } catch (err) {
+    return errorResponse("Failed to create expression", err);
   }
 }

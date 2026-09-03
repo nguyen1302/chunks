@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { submitReview } from "@/lib/notion";
 import { todayStr } from "@/lib/dates";
+import { errorResponse } from "@/lib/http";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -16,7 +17,7 @@ export async function POST(req: Request) {
     }
     await submitReview({ expressionId, sentence, result }, todayStr());
     return NextResponse.json({ ok: true });
-  } catch {
-    return NextResponse.json({ error: "Failed to submit review" }, { status: 500 });
+  } catch (err) {
+    return errorResponse("Failed to submit review", err);
   }
 }
