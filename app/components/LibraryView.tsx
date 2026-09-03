@@ -61,7 +61,7 @@ export default function LibraryView({
 
   return (
     <div style={{ paddingTop: 48 }}>
-      <h1 style={{ margin: "0 0 28px", fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: 36 }}>
+      <h1 style={{ margin: "0 0 28px", fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: "clamp(26px, 6vw, 36px)" }}>
         Library
       </h1>
 
@@ -202,17 +202,18 @@ function LibraryRow({
           background: "none",
           cursor: "pointer",
           display: "flex",
-          gap: 18,
+          gap: 12,
           alignItems: "baseline",
+          flexWrap: "wrap",
           padding: "14px 0",
           textAlign: "left",
         }}
       >
-        <span style={{ fontFamily: "'Instrument Serif', serif", fontSize: 21, flex: 1, color: "#171614" }}>
+        <span style={{ fontFamily: "'Instrument Serif', serif", fontSize: 21, flex: 1, minWidth: 0, color: "#171614" }}>
           {e.text}
         </span>
-        <span style={{ fontSize: 13.5, color: "#A79F90", minWidth: 120, textAlign: "right" }}>{e.meaning}</span>
-        <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: "#C3BEB2", minWidth: 120, textAlign: "right" }}>
+        <span style={{ fontSize: 13.5, color: "#A79F90", textAlign: "right" }}>{e.meaning}</span>
+        <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: "#C3BEB2", whiteSpace: "nowrap" }}>
           {statusLabel(e)}
         </span>
       </button>

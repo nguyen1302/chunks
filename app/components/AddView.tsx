@@ -85,7 +85,7 @@ export default function AddView({ onAdded }: { onAdded: () => void }) {
   return (
     <div style={{ paddingTop: 48 }}>
       <h1
-        style={{ margin: "0 0 36px", fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: 36 }}
+        style={{ margin: "0 0 36px", fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: "clamp(26px, 6vw, 36px)" }}
       >
         New word or phrase
       </h1>
@@ -97,7 +97,7 @@ export default function AddView({ onAdded }: { onAdded: () => void }) {
             value={f.expr}
             onChange={(e) => setF({ ...f, expr: e.target.value })}
             placeholder="run into a problem · resilient"
-            style={{ ...bare, fontFamily: "'Instrument Serif', serif", fontSize: 30, padding: "2px 0" }}
+            style={{ ...bare, fontFamily: "'Instrument Serif', serif", fontSize: "clamp(22px, 6vw, 30px)", padding: "2px 0" }}
           />
         </label>
         <label style={label}>

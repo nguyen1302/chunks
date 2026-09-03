@@ -127,7 +127,7 @@ export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Pr
             margin: 0,
             fontFamily: "'Instrument Serif', serif",
             fontWeight: 400,
-            fontSize: 44,
+            fontSize: "clamp(30px, 7vw, 44px)",
             lineHeight: 1.15,
           }}
         >
@@ -152,7 +152,7 @@ export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Pr
   if (!session.length) {
     return (
       <div style={{ padding: "120px 0 0", display: "flex", flexDirection: "column", gap: 20 }}>
-        <h1 style={{ margin: 0, fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: 40 }}>
+        <h1 style={{ margin: 0, fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: "clamp(28px, 7vw, 40px)" }}>
           Nothing to review yet.
         </h1>
         <p style={{ margin: 0, fontSize: 15, color: "#78746B" }}>
@@ -210,7 +210,7 @@ export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Pr
           margin: 0,
           fontFamily: "'Instrument Serif', serif",
           fontWeight: 400,
-          fontSize: 54,
+          fontSize: "clamp(32px, 8vw, 54px)",
           lineHeight: 1.1,
           letterSpacing: "-0.01em",
         }}
@@ -231,7 +231,7 @@ export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Pr
             background: "none",
             resize: "none",
             fontFamily: "'Instrument Serif', serif",
-            fontSize: 26,
+            fontSize: "clamp(20px, 5vw, 26px)",
             lineHeight: 1.5,
             color: "#171614",
             padding: "8px 0",

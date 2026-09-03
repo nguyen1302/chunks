@@ -14,7 +14,7 @@ const tile: React.CSSProperties = {
   flexDirection: "column",
   gap: 7,
 };
-const big: React.CSSProperties = { fontFamily: "'Instrument Serif', serif", fontSize: 40, lineHeight: 1 };
+const big: React.CSSProperties = { fontFamily: "'Instrument Serif', serif", fontSize: "clamp(28px, 8vw, 40px)", lineHeight: 1 };
 const sub: React.CSSProperties = { fontSize: 12.5, color: "#A79F90" };
 
 export default function ProgressView({
@@ -29,7 +29,7 @@ export default function ProgressView({
   const activeDays = stats.last14Days.filter((b) => b > 0).length;
   return (
     <div style={{ paddingTop: 48 }}>
-      <h1 style={{ margin: "0 0 40px", fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: 36 }}>
+      <h1 style={{ margin: "0 0 40px", fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: "clamp(26px, 6vw, 36px)" }}>
         Progress
       </h1>
 
@@ -75,14 +75,15 @@ export default function ProgressView({
             key={w.id}
             style={{
               display: "flex",
-              gap: 18,
+              gap: 12,
               alignItems: "center",
+              flexWrap: "wrap",
               padding: "13px 0",
               borderBottom: "1px solid #F2EFE8",
             }}
           >
-            <span style={{ fontFamily: "'Instrument Serif', serif", fontSize: 21, flex: 1 }}>{w.text}</span>
-            <span style={{ fontSize: 13, color: "#A79F90", textAlign: "right", minWidth: 110 }}>
+            <span style={{ fontFamily: "'Instrument Serif', serif", fontSize: 21, flex: 1, minWidth: 0 }}>{w.text}</span>
+            <span style={{ fontSize: 13, color: "#A79F90", textAlign: "right" }}>
               {w.forgot} forgot · {w.remembered} remembered
             </span>
             <span style={{ width: 64, height: 3, background: "#EDE9E0", position: "relative", overflow: "hidden" }}>

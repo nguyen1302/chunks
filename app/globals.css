@@ -1,5 +1,7 @@
-html, body { margin: 0; padding: 0; background: #FBFAF7; }
+html, body { margin: 0; padding: 0; background: #FBFAF7; overflow-x: hidden; max-width: 100%; }
 * { box-sizing: border-box; }
+h1 { overflow-wrap: break-word; word-break: break-word; }
+input, textarea, select { max-width: 100%; }
 a { color: #A9563C; text-decoration: none; }
 a:hover { color: #8C4530; }
 textarea, input, button { font-family: inherit; }

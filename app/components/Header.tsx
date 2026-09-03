@@ -5,7 +5,7 @@ type View = "review" | "cards" | "library" | "add" | "stats";
 const tab: React.CSSProperties = {
   border: "none",
   background: "none",
-  padding: "6px 10px 8px",
+  padding: "6px clamp(6px, 2vw, 10px) 8px",
   fontSize: 13.5,
   color: "#171614",
   cursor: "pointer",
@@ -13,6 +13,7 @@ const tab: React.CSSProperties = {
   flexDirection: "column",
   alignItems: "center",
   gap: 6,
+  whiteSpace: "nowrap",
 };
 
 export default function Header({ view, setView }: { view: View; setView: (v: View) => void }) {
@@ -28,11 +29,12 @@ export default function Header({ view, setView }: { view: View; setView: (v: Vie
       style={{
         width: "100%",
         maxWidth: 780,
-        padding: "28px 32px 0",
+        padding: "28px clamp(16px, 5vw, 32px) 0",
         display: "flex",
         alignItems: "baseline",
         justifyContent: "space-between",
-        gap: 24,
+        gap: 16,
+        flexWrap: "wrap",
       }}
     >
       <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
@@ -50,7 +52,7 @@ export default function Header({ view, setView }: { view: View; setView: (v: Vie
           EN
         </span>
       </div>
-      <nav style={{ display: "flex", gap: 4 }}>
+      <nav style={{ display: "flex", gap: 2, flexWrap: "wrap", justifyContent: "flex-end" }}>
         {items.map(([v, label]) => (
           <button key={v} onClick={() => setView(v)} style={tab}>
             {label}

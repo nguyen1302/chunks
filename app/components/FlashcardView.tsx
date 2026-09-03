@@ -88,7 +88,7 @@ export default function FlashcardView({ expressions }: { expressions: Expression
   if (expressions.length === 0) {
     return (
       <div style={{ padding: "120px 0 0", display: "flex", flexDirection: "column", gap: 20 }}>
-        <h1 style={{ margin: 0, fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: 40 }}>
+        <h1 style={{ margin: 0, fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: "clamp(28px, 7vw, 40px)" }}>
           No cards yet.
         </h1>
         <p style={{ margin: 0, fontSize: 15, color: "#78746B" }}>Add a word or phrase to start practicing.</p>
@@ -99,7 +99,7 @@ export default function FlashcardView({ expressions }: { expressions: Expression
   if (!current) {
     return (
       <div style={{ padding: "120px 0 0", display: "flex", flexDirection: "column", gap: 22, animation: "riseIn 300ms ease both" }}>
-        <h1 style={{ margin: 0, fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: 44 }}>
+        <h1 style={{ margin: 0, fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: "clamp(30px, 7vw, 44px)" }}>
           Went through them all.
         </h1>
         <p style={{ margin: 0, fontSize: 15, color: "#78746B" }}>
@@ -132,14 +132,14 @@ export default function FlashcardView({ expressions }: { expressions: Expression
           background: "#FBFAF7",
           borderRadius: 4,
           cursor: "pointer",
-          padding: "40px 32px",
+          padding: "clamp(24px, 6vw, 40px) clamp(20px, 5vw, 32px)",
           display: "flex",
           flexDirection: "column",
           gap: 22,
           textAlign: "left",
         }}
       >
-        <h1 style={{ margin: 0, fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: 46, lineHeight: 1.1, color: "#171614" }}>
+        <h1 style={{ margin: 0, fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: "clamp(30px, 8vw, 46px)", lineHeight: 1.1, color: "#171614" }}>
           {current.text}
         </h1>
         {flipped ? (

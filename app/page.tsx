@@ -57,7 +57,7 @@ export default function Page() {
       }}
     >
       <Header view={view} setView={setView} />
-      <main style={{ width: "100%", maxWidth: 780, padding: "0 32px 96px", flex: 1 }}>
+      <main style={{ width: "100%", maxWidth: 780, padding: "0 clamp(16px, 5vw, 32px) 96px", flex: 1 }}>
         {view === "review" && (
           <ReviewView
             queue={queue}
