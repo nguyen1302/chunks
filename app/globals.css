@@ -1,0 +1,10 @@
+html, body { margin: 0; padding: 0; background: #FBFAF7; }
+* { box-sizing: border-box; }
+a { color: #A9563C; text-decoration: none; }
+a:hover { color: #8C4530; }
+textarea, input, button { font-family: inherit; }
+textarea:focus, input:focus { outline: none; }
+::placeholder { color: #B4AFA3; }
+::selection { background: #EFE3D5; }
+@keyframes riseIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+body { color: #171614; font-family: 'IBM Plex Sans', system-ui, sans-serif; }
