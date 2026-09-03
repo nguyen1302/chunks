@@ -18,7 +18,7 @@ const cap: React.CSSProperties = {
 const bare: React.CSSProperties = { border: "none", background: "none", color: "#171614" };
 
 export default function AddView({ onAdded }: { onAdded: () => void }) {
-  const [f, setF] = useState({ expr: "", meaning: "", example: "", source: "" });
+  const [f, setF] = useState({ expr: "", meaning: "", example: "", source: "", past: "" });
   const [saved, setSaved] = useState("");
   const [saving, setSaving] = useState(false);
   const [recent, setRecent] = useState<{ text: string; meaning: string }[]>([]);
@@ -42,9 +42,21 @@ export default function AddView({ onAdded }: { onAdded: () => void }) {
       });
       if (!res.ok) return;
       const created: Expression = await res.json();
+      // Backfill any past sentences (one per line) for the new expression.
+      const pastLines = f.past
+        .split("\n")
+        .map((s) => s.trim())
+        .filter(Boolean);
+      for (const sentence of pastLines) {
+        await fetch(`/api/expressions/${created.id}/history`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ sentence }),
+        });
+      }
       setRecent((r) => [{ text: created.text, meaning: created.meaning }, ...r].slice(0, 5));
       setSaved(created.text);
-      setF({ expr: "", meaning: "", example: "", source: "" });
+      setF({ expr: "", meaning: "", example: "", source: "", past: "" });
       onAdded();
       setTimeout(() => ref.current?.focus(), 40);
       setTimeout(() => setSaved(""), 2600);
@@ -119,6 +131,28 @@ export default function AddView({ onAdded }: { onAdded: () => void }) {
             onChange={(e) => setF({ ...f, source: e.target.value })}
             placeholder="YouTube · article · URL"
             style={{ ...bare, fontFamily: "'IBM Plex Mono', monospace", fontSize: 13, padding: "4px 0" }}
+          />
+        </label>
+        <label style={label}>
+          <span style={cap}>
+            Past sentences{" "}
+            <span style={{ textTransform: "none", letterSpacing: 0, color: "#C3BEB2" }}>
+              optional · one per line
+            </span>
+          </span>
+          <textarea
+            value={f.past}
+            onChange={(e) => setF({ ...f, past: e.target.value })}
+            rows={3}
+            placeholder={"Sentences you've already used with this expression…\nOne per line."}
+            style={{
+              ...bare,
+              resize: "none",
+              fontFamily: "'Instrument Serif', serif",
+              fontSize: 18,
+              lineHeight: 1.6,
+              padding: "2px 0",
+            }}
           />
         </label>
       </div>
