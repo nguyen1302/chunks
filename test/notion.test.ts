@@ -73,4 +73,16 @@ describe("mapReviewExample", () => {
       expressionId: "expr-1",
     });
   });
+  it("maps a backfilled example (no Result) to result null", () => {
+    const page = {
+      id: "re-2",
+      properties: {
+        Example: { title: [{ plain_text: "An old sentence I wrote." }] },
+        "Review Date": { date: { start: "2026-09-01" } },
+        Result: { select: null },
+        Expression: { relation: [{ id: "expr-1" }] },
+      },
+    };
+    expect(mapReviewExample(page).result).toBeNull();
+  });
 });

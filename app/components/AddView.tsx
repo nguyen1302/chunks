@@ -20,6 +20,7 @@ const bare: React.CSSProperties = { border: "none", background: "none", color: "
 export default function AddView({ onAdded }: { onAdded: () => void }) {
   const [f, setF] = useState({ expr: "", meaning: "", example: "", source: "" });
   const [saved, setSaved] = useState("");
+  const [saving, setSaving] = useState(false);
   const [recent, setRecent] = useState<{ text: string; meaning: string }[]>([]);
   const ref = useRef<HTMLInputElement>(null);
   useEffect(() => {
@@ -27,23 +28,29 @@ export default function AddView({ onAdded }: { onAdded: () => void }) {
   }, []);
 
   async function save() {
+    if (saving) return; // guard against double-submit on slow API
     if (!f.expr.trim()) {
       ref.current?.focus();
       return;
     }
-    const res = await fetch("/api/expressions", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text: f.expr, meaning: f.meaning, example: f.example, source: f.source }),
-    });
-    if (!res.ok) return;
-    const created: Expression = await res.json();
-    setRecent((r) => [{ text: created.text, meaning: created.meaning }, ...r].slice(0, 5));
-    setSaved(created.text);
-    setF({ expr: "", meaning: "", example: "", source: "" });
-    onAdded();
-    setTimeout(() => ref.current?.focus(), 40);
-    setTimeout(() => setSaved(""), 2600);
+    setSaving(true);
+    try {
+      const res = await fetch("/api/expressions", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: f.expr, meaning: f.meaning, example: f.example, source: f.source }),
+      });
+      if (!res.ok) return;
+      const created: Expression = await res.json();
+      setRecent((r) => [{ text: created.text, meaning: created.meaning }, ...r].slice(0, 5));
+      setSaved(created.text);
+      setF({ expr: "", meaning: "", example: "", source: "" });
+      onAdded();
+      setTimeout(() => ref.current?.focus(), 40);
+      setTimeout(() => setSaved(""), 2600);
+    } finally {
+      setSaving(false);
+    }
   }
 
   useEffect(() => {
@@ -118,17 +125,19 @@ export default function AddView({ onAdded }: { onAdded: () => void }) {
       <div style={{ display: "flex", alignItems: "center", gap: 16, marginTop: 26 }}>
         <button
           onClick={save}
+          disabled={saving}
           style={{
             border: "1px solid #171614",
-            background: "#171614",
+            background: saving ? "#B4AFA3" : "#171614",
+            borderColor: saving ? "#B4AFA3" : "#171614",
             color: "#FBFAF7",
             fontSize: 13.5,
             padding: "11px 22px",
             borderRadius: 2,
-            cursor: "pointer",
+            cursor: saving ? "default" : "pointer",
           }}
         >
-          Save
+          {saving ? "Saving…" : "Save"}
         </button>
         <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11.5, color: "#C3BEB2" }}>
           ⌘ ↵

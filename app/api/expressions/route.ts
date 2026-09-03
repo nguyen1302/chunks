@@ -1,10 +1,18 @@
 import { NextResponse } from "next/server";
-import { createExpression } from "@/lib/notion";
+import { createExpression, getExpressionsWithStats } from "@/lib/notion";
 import { todayStr } from "@/lib/dates";
 import { errorResponse } from "@/lib/http";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
+
+export async function GET() {
+  try {
+    return NextResponse.json(await getExpressionsWithStats());
+  } catch (err) {
+    return errorResponse("Failed to load expressions", err);
+  }
+}
 
 export async function POST(req: Request) {
   try {

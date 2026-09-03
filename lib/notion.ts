@@ -1,5 +1,5 @@
 import { Client } from "@notionhq/client";
-import type { Expression, ReviewExample, ReviewResult, Stats } from "./types";
+import type { Expression, ExpressionWithStats, ReviewExample, ReviewResult, Stats } from "./types";
 import { computeNextReview, newExpressionFields } from "./schedule";
 import { diffDays } from "./dates";
 
@@ -40,11 +40,14 @@ export function mapExpression(page: any): Expression {
 
 export function mapReviewExample(page: any): ReviewExample {
   const p = page.properties;
+  const resultName = p.Result?.select?.name;
+  const result: ReviewResult | null =
+    resultName === "Remembered" || resultName === "Forgot" ? resultName : null;
   return {
     id: page.id,
     sentence: plain(p.Example?.title),
     reviewDate: p["Review Date"]?.date?.start ?? "",
-    result: (p.Result?.select?.name ?? "Forgot") as ReviewResult,
+    result,
     expressionId: p.Expression?.relation?.[0]?.id ?? "",
   };
 }
@@ -155,18 +158,20 @@ export async function getStats(today: string): Promise<Stats> {
   const total = exprs.length;
   const sentences = examples.length;
 
+  // graded reviews only (backfilled past sentences have null result)
   let remembered = 0;
-  for (const e of examples) if (e.result === "Remembered") remembered++;
-  const rememberedRate = sentences ? remembered / sentences : 0;
-
-  // per-expression tallies from examples
-  const tally = new Map<string, { remembered: number; forgot: number }>();
+  let graded = 0;
   for (const e of examples) {
-    const t = tally.get(e.expressionId) ?? { remembered: 0, forgot: 0 };
-    if (e.result === "Remembered") t.remembered++;
-    else t.forgot++;
-    tally.set(e.expressionId, t);
+    if (e.result === "Remembered") {
+      remembered++;
+      graded++;
+    } else if (e.result === "Forgot") {
+      graded++;
+    }
   }
+  const rememberedRate = graded ? remembered / graded : 0;
+
+  const tally = tallyByExpression(examples);
   const byId = new Map(exprs.map((x) => [x.id, x]));
   const needsAttention = [...tally.entries()]
     .map(([id, t]) => ({ id, ...t, total: t.remembered + t.forgot }))
@@ -193,4 +198,48 @@ export async function getStats(today: string): Promise<Stats> {
   }
 
   return { total, sentences, rememberedRate, needsAttention, last14Days };
+}
+
+// Per-expression graded tally (Remembered/Forgot only; nulls ignored).
+function tallyByExpression(examples: ReviewExample[]): Map<string, { remembered: number; forgot: number }> {
+  const tally = new Map<string, { remembered: number; forgot: number }>();
+  for (const e of examples) {
+    if (e.result !== "Remembered" && e.result !== "Forgot") continue;
+    const t = tally.get(e.expressionId) ?? { remembered: 0, forgot: 0 };
+    if (e.result === "Remembered") t.remembered++;
+    else t.forgot++;
+    tally.set(e.expressionId, t);
+  }
+  return tally;
+}
+
+export async function getExpressionsWithStats(): Promise<ExpressionWithStats[]> {
+  const exprPages = await allPages(DB_EXPR());
+  const examplePages = await allPages(DB_EXAMPLES());
+  const exprs = exprPages.map(mapExpression);
+  const tally = tallyByExpression(examplePages.map(mapReviewExample));
+  return exprs
+    .map((x) => {
+      const t = tally.get(x.id) ?? { remembered: 0, forgot: 0 };
+      const graded = t.remembered + t.forgot;
+      return { ...x, remembered: t.remembered, forgot: t.forgot, forgotRate: graded ? t.forgot / graded : 0 };
+    })
+    .sort((a, b) => (a.added < b.added ? 1 : -1)); // newest first by default
+}
+
+// Backfill a past sentence for an expression: creates a Review Example with
+// NO Result (it is not a graded review), so it never skews remembered rate.
+export async function addPastSentence(
+  input: { expressionId: string; sentence: string },
+  date: string,
+): Promise<ReviewExample> {
+  const page = await notion().pages.create({
+    parent: { database_id: DB_EXAMPLES() },
+    properties: {
+      Example: { title: richText(input.sentence) },
+      "Review Date": { date: { start: date } },
+      Expression: { relation: [{ id: input.expressionId }] },
+    },
+  });
+  return mapReviewExample(page);
 }

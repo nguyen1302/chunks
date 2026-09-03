@@ -17,8 +17,15 @@ export interface ReviewExample {
   id: string;
   sentence: string; // Example (Title)
   reviewDate: string; // "YYYY-MM-DD"
-  result: ReviewResult; // Result
+  result: ReviewResult | null; // Result — null for backfilled past sentences (no outcome)
   expressionId: string; // relation target
+}
+
+// An expression enriched with its per-expression review tally (from examples).
+export interface ExpressionWithStats extends Expression {
+  remembered: number;
+  forgot: number;
+  forgotRate: number; // forgot / (remembered + forgot); 0 when no graded reviews
 }
 
 // What computeNextReview returns / persists to Notion.

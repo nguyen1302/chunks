@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { Expression, ReviewExample } from "@/lib/types";
 import { formatShort } from "@/lib/dates";
+import SourceLink from "./SourceLink";
 
 type Props = {
   queue: Expression[] | null;
@@ -19,6 +20,8 @@ export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Pr
   const [sOk, setSOk] = useState(0);
   const [sNo, setSNo] = useState(0);
   const [history, setHistory] = useState<ReviewExample[] | null>(null);
+  const [historyLoading, setHistoryLoading] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
   // snapshot the queue once it arrives (Forgot must not requeue in-session)
@@ -53,7 +56,8 @@ export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Pr
     if (draft.trim()) setRevealed(true);
   }
   async function mark(ok: boolean) {
-    if (!cur) return;
+    if (!cur || submitting) return; // guard against double-submit on slow API
+    setSubmitting(true);
     try {
       await fetch("/api/review", {
         method: "POST",
@@ -69,12 +73,18 @@ export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Pr
     }
     setSOk((n) => n + (ok ? 1 : 0));
     setSNo((n) => n + (ok ? 0 : 1));
+    setSubmitting(false);
     advance();
   }
   async function loadHistory() {
-    if (!cur) return;
-    const res = await fetch(`/api/expressions/${cur.id}/history`);
-    setHistory(res.ok ? await res.json() : []);
+    if (!cur || historyLoading) return;
+    setHistoryLoading(true);
+    try {
+      const res = await fetch(`/api/expressions/${cur.id}/history`);
+      setHistory(res.ok ? await res.json() : []);
+    } finally {
+      setHistoryLoading(false);
+    }
   }
 
   useEffect(() => {
@@ -275,27 +285,24 @@ export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Pr
                 {cur.example || "—"}
               </span>
             </Field>
-            {cur.source && (
-              <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11.5, color: "#A79F90" }}>
-                {cur.source}
-              </span>
-            )}
+            {cur.source && <SourceLink source={cur.source} />}
           </div>
 
           {history === null ? (
             <button
               onClick={loadHistory}
+              disabled={historyLoading}
               style={{
                 border: "none",
                 background: "none",
                 marginTop: 18,
                 fontSize: 13,
                 color: "#A9563C",
-                cursor: "pointer",
+                cursor: historyLoading ? "default" : "pointer",
                 padding: 0,
               }}
             >
-              Show past sentences
+              {historyLoading ? "Loading…" : "Show past sentences"}
             </button>
           ) : history.length ? (
             <div style={{ marginTop: 26, display: "flex", flexDirection: "column", gap: 14 }}>
@@ -339,11 +346,11 @@ export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Pr
           )}
 
           <div style={{ marginTop: 40, display: "flex", alignItems: "center", gap: 10 }}>
-            <button onClick={() => mark(true)} style={resultBtn}>
-              Remembered <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, opacity: 0.55 }}>1</span>
+            <button onClick={() => mark(true)} disabled={submitting} style={submitting ? resultBtnDisabled : resultBtn}>
+              {submitting ? "Saving…" : <>Remembered <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, opacity: 0.55 }}>1</span></>}
             </button>
-            <button onClick={() => mark(false)} style={resultBtn}>
-              Forgot <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, opacity: 0.55 }}>2</span>
+            <button onClick={() => mark(false)} disabled={submitting} style={submitting ? resultBtnDisabled : resultBtn}>
+              {submitting ? "Saving…" : <>Forgot <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, opacity: 0.55 }}>2</span></>}
             </button>
           </div>
         </div>
@@ -394,4 +401,10 @@ const resultBtn: React.CSSProperties = {
   alignItems: "center",
   justifyContent: "center",
   gap: 10,
+};
+const resultBtnDisabled: React.CSSProperties = {
+  ...resultBtn,
+  cursor: "default",
+  color: "#B4AFA3",
+  borderColor: "#EDE9E0",
 };

@@ -1,6 +1,6 @@
 "use client";
 
-type View = "review" | "add" | "stats";
+type View = "review" | "cards" | "library" | "add" | "stats";
 
 const tab: React.CSSProperties = {
   border: "none",
@@ -18,6 +18,8 @@ const tab: React.CSSProperties = {
 export default function Header({ view, setView }: { view: View; setView: (v: View) => void }) {
   const items: [View, string][] = [
     ["review", "Review"],
+    ["cards", "Cards"],
+    ["library", "Library"],
     ["add", "Add"],
     ["stats", "Progress"],
   ];
