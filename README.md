@@ -88,6 +88,21 @@ It runs standalone (own icon, no browser chrome). A service worker caches the
 app shell for fast loads; data still comes live from Notion via `/api/*`.
 Regenerate icons with `npm run gen:icons`.
 
+## Reminders (Web Push)
+
+Daily push reminder when words are due — works on **installed** PWAs (iOS 16.4+,
+Android, desktop Chrome).
+
+- Generate VAPID keys once: `node scripts/gen-vapid.mjs` → put
+  `VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY`, `NEXT_PUBLIC_VAPID_PUBLIC_KEY`,
+  `VAPID_SUBJECT` (mailto:) and a random `CRON_SECRET` in `.env` and in Vercel
+  env (Production + Preview).
+- Users enable reminders from the **Progress** page ("Daily reminders" → Turn on).
+  iOS requires the app be added to the home screen first.
+- A Vercel Cron hits `GET /api/cron/remind` daily at **01:00 UTC (08:00 ICT)**
+  (`vercel.json`); it sends a push to all subscribers when `dueToday > 0` and
+  prunes dead subscriptions. Vercel injects the `CRON_SECRET` bearer.
+
 ## Backups
 
 The free Atlas tier (M0) has no automated backups, so a local weekly snapshot
