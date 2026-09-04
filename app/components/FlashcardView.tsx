@@ -4,6 +4,7 @@ import type { ExpressionWithStats } from "@/lib/types";
 import { weaknessWeight, pickWeightedIndex } from "@/lib/practice";
 import SourceLink from "./SourceLink";
 import SynonymTags from "./SynonymTags";
+import SpeakButton from "./SpeakButton";
 
 const btnDark: React.CSSProperties = {
   border: "1px solid #171614",
@@ -140,7 +141,7 @@ export default function FlashcardView({ expressions }: { expressions: Expression
         }}
       >
         <h1 style={{ margin: 0, fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: "clamp(30px, 8vw, 46px)", lineHeight: 1.1, color: "#171614" }}>
-          {current.text}
+          {current.text} <SpeakButton text={current.text} size={22} />
         </h1>
         {flipped ? (
           <div style={{ display: "flex", flexDirection: "column", gap: 16, animation: "riseIn 200ms ease both" }}>
@@ -151,7 +152,7 @@ export default function FlashcardView({ expressions }: { expressions: Expression
             <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
               <span style={cap}>Original example</span>
               <span style={{ fontFamily: "'Instrument Serif', serif", fontSize: 20, fontStyle: "italic", lineHeight: 1.45, color: "#3A3730" }}>
-                {current.example || "—"}
+                {current.example || "—"} <SpeakButton text={current.example} />
               </span>
             </div>
             {current.synonyms.length > 0 && <SynonymTags synonyms={current.synonyms} />}

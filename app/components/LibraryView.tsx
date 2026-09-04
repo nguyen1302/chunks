@@ -5,6 +5,7 @@ import { formatShort } from "@/lib/dates";
 import { formatSynonyms } from "@/lib/synonyms";
 import SourceLink from "./SourceLink";
 import SynonymTags from "./SynonymTags";
+import SpeakButton from "./SpeakButton";
 
 type Sort = "newest" | "hardest" | "due";
 
@@ -269,7 +270,9 @@ function LibraryRow({
               <>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 16 }}>
                   <div style={{ display: "flex", flexDirection: "column", gap: 4, flex: 1 }}>
-                    <span style={cap}>Original example</span>
+                    <span style={cap}>
+                      Original example <SpeakButton text={e.example} /> <SpeakButton text={e.text} />
+                    </span>
                     <span style={{ fontFamily: "'Instrument Serif', serif", fontSize: 18, fontStyle: "italic", color: "#3A3730" }}>
                       {e.example || "—"}
                     </span>
