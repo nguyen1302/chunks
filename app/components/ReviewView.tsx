@@ -12,6 +12,8 @@ type Props = {
   onStartSession: () => void;
   goAdd: () => void;
   goStats: () => void;
+  allTags?: string[];
+  onPickTopic?: (tag: string) => void;
 };
 
 type Mode = "write" | "cloze" | "reverse";
@@ -19,7 +21,8 @@ type Chosen = Mode | "mixed";
 
 const MODES: Mode[] = ["write", "cloze", "reverse"];
 
-export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Props) {
+export default function ReviewView({ queue, onStartSession, goAdd, goStats, allTags = [], onPickTopic }: Props) {
+  const [topic, setTopic] = useState("");
   const [session, setSession] = useState<Expression[]>([]);
   const [chosen, setChosen] = useState<Chosen | null>(null); // null → show the mode picker
   const [cardModes, setCardModes] = useState<Mode[]>([]); // per-card mode when mixed
@@ -135,7 +138,7 @@ export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Pr
 
   if (queue === null) return <div style={{ padding: "120px 0 0", color: "#B4AFA3" }}>Loading…</div>;
 
-  if (!session.length) {
+  if (!session.length && !topic) {
     return (
       <div style={{ padding: "120px 0 0", display: "flex", flexDirection: "column", gap: 20 }}>
         <h1 style={{ margin: 0, fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: "clamp(28px, 7vw, 40px)" }}>
@@ -165,28 +168,52 @@ export default function ReviewView({ queue, onStartSession, goAdd, goStats }: Pr
           </h1>
           <p style={{ margin: 0, fontSize: 14, color: "#A79F90" }}>{session.length} due · pick a mode to begin.</p>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 12 }}>
-          {opts.map((o) => (
-            <button
-              key={o.key}
-              onClick={() => startSession(o.key)}
-              style={{
-                textAlign: "left",
-                border: "1px solid #EDE9E0",
-                background: "#FBFAF7",
-                borderRadius: 4,
-                padding: "18px 18px 20px",
-                cursor: "pointer",
-                display: "flex",
-                flexDirection: "column",
-                gap: 6,
+
+        {allTags.length > 0 && (
+          <label style={{ display: "flex", alignItems: "center", gap: 10, fontSize: 13, color: "#78746B" }}>
+            Topic
+            <select
+              value={topic}
+              onChange={(e) => {
+                setTopic(e.target.value);
+                onPickTopic?.(e.target.value);
               }}
+              style={{ border: "1px solid #EDE9E0", background: "#FBFAF7", borderRadius: 2, padding: "7px 10px", fontSize: 13, color: "#171614" }}
             >
-              <span style={{ fontFamily: "'Instrument Serif', serif", fontSize: 24, color: "#171614" }}>{o.title}</span>
-              <span style={{ fontSize: 13, color: "#A79F90", lineHeight: 1.5 }}>{o.desc}</span>
-            </button>
-          ))}
-        </div>
+              <option value="">All topics</option>
+              {allTags.map((t) => (
+                <option key={t} value={t}>{t}</option>
+              ))}
+            </select>
+          </label>
+        )}
+
+        {session.length === 0 ? (
+          <p style={{ margin: 0, fontSize: 15, color: "#A79F90" }}>No words due in this topic right now.</p>
+        ) : (
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 12 }}>
+            {opts.map((o) => (
+              <button
+                key={o.key}
+                onClick={() => startSession(o.key)}
+                style={{
+                  textAlign: "left",
+                  border: "1px solid #EDE9E0",
+                  background: "#FBFAF7",
+                  borderRadius: 4,
+                  padding: "18px 18px 20px",
+                  cursor: "pointer",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: 6,
+                }}
+              >
+                <span style={{ fontFamily: "'Instrument Serif', serif", fontSize: 24, color: "#171614" }}>{o.title}</span>
+                <span style={{ fontSize: 13, color: "#A79F90", lineHeight: 1.5 }}>{o.desc}</span>
+              </button>
+            ))}
+          </div>
+        )}
       </div>
     );
   }

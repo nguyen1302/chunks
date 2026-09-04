@@ -18,7 +18,7 @@ const cap: React.CSSProperties = {
 const bare: React.CSSProperties = { border: "none", background: "none", color: "#171614" };
 
 export default function AddView({ onAdded }: { onAdded: () => void }) {
-  const [f, setF] = useState({ expr: "", meaning: "", example: "", source: "", synonyms: "", past: "" });
+  const [f, setF] = useState({ expr: "", meaning: "", example: "", source: "", synonyms: "", tags: "", past: "" });
   const [saved, setSaved] = useState("");
   const [saving, setSaving] = useState(false);
   const [recent, setRecent] = useState<{ text: string; meaning: string }[]>([]);
@@ -44,6 +44,7 @@ export default function AddView({ onAdded }: { onAdded: () => void }) {
           example: f.example,
           source: f.source,
           synonyms: f.synonyms,
+          tags: f.tags,
         }),
       });
       if (!res.ok) return;
@@ -62,7 +63,7 @@ export default function AddView({ onAdded }: { onAdded: () => void }) {
       }
       setRecent((r) => [{ text: created.text, meaning: created.meaning }, ...r].slice(0, 5));
       setSaved(created.text);
-      setF({ expr: "", meaning: "", example: "", source: "", synonyms: "", past: "" });
+      setF({ expr: "", meaning: "", example: "", source: "", synonyms: "", tags: "", past: "" });
       onAdded();
       setTimeout(() => ref.current?.focus(), 40);
       setTimeout(() => setSaved(""), 2600);
@@ -151,6 +152,20 @@ export default function AddView({ onAdded }: { onAdded: () => void }) {
             onChange={(e) => setF({ ...f, synonyms: e.target.value })}
             placeholder="hit a snag, run into trouble"
             style={{ ...bare, fontSize: 17, padding: "2px 0" }}
+          />
+        </label>
+        <label style={label}>
+          <span style={cap}>
+            Tags{" "}
+            <span style={{ textTransform: "none", letterSpacing: 0, color: "#C3BEB2" }}>
+              optional · comma-separated
+            </span>
+          </span>
+          <input
+            value={f.tags}
+            onChange={(e) => setF({ ...f, tags: e.target.value })}
+            placeholder="work, travel, phrasal verb"
+            style={{ ...bare, fontFamily: "'IBM Plex Mono', monospace", fontSize: 13, padding: "4px 0" }}
           />
         </label>
         <label style={label}>

@@ -16,8 +16,8 @@ export default function Page() {
   const [stats, setStats] = useState<Stats | null>(null);
   const [all, setAll] = useState<ExpressionWithStats[] | null>(null);
 
-  const loadQueue = useCallback(async () => {
-    const res = await fetch("/api/review-queue");
+  const loadQueue = useCallback(async (tag?: string) => {
+    const res = await fetch("/api/review-queue" + (tag ? `?tag=${encodeURIComponent(tag)}` : ""));
     setQueue(res.ok ? await res.json() : []);
   }, []);
   const loadStats = useCallback(async () => {
@@ -36,8 +36,10 @@ export default function Page() {
   }, [loadQueue]);
   useEffect(() => {
     if (view === "stats") loadStats();
-    if (view === "library" || view === "cards") loadAll();
+    if (view === "library" || view === "cards" || view === "review") loadAll();
   }, [view, loadStats, loadAll]);
+
+  const allTags = [...new Set((all ?? []).flatMap((e) => e.tags))].sort();
 
   const startSession = useCallback(() => {
     setView("review");
@@ -64,6 +66,8 @@ export default function Page() {
             onStartSession={startSession}
             goAdd={() => setView("add")}
             goStats={() => setView("stats")}
+            allTags={allTags}
+            onPickTopic={(tag) => loadQueue(tag || undefined)}
           />
         )}
         {view === "cards" && <FlashcardView expressions={all} />}

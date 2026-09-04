@@ -38,7 +38,13 @@ export default function LibraryView({
   const [q, setQ] = useState("");
   const [weakOnly, setWeakOnly] = useState(false);
   const [sort, setSort] = useState<Sort>("newest");
+  const [tagFilter, setTagFilter] = useState("");
   const [openId, setOpenId] = useState<string | null>(null);
+
+  const allTags = useMemo(
+    () => [...new Set((expressions ?? []).flatMap((e) => e.tags))].sort(),
+    [expressions],
+  );
 
   const rows = useMemo(() => {
     if (!expressions) return [];
@@ -49,6 +55,7 @@ export default function LibraryView({
         e.text.toLowerCase().includes(needle) ||
         e.meaning.toLowerCase().includes(needle),
     );
+    if (tagFilter) list = list.filter((e) => e.tags.includes(tagFilter));
     if (weakOnly) list = list.filter(isWeak);
     const sorted = [...list];
     if (sort === "newest") sorted.sort((a, b) => (a.added < b.added ? 1 : -1));
@@ -56,7 +63,7 @@ export default function LibraryView({
       sorted.sort((a, b) => b.forgotRate - a.forgotRate || b.reviewCount - a.reviewCount);
     else sorted.sort((a, b) => (a.reviewDue > b.reviewDue ? 1 : -1));
     return sorted;
-  }, [expressions, q, weakOnly, sort]);
+  }, [expressions, q, weakOnly, sort, tagFilter]);
 
   if (!expressions) return <div style={{ paddingTop: 48, color: "#B4AFA3" }}>Loading…</div>;
 
@@ -78,6 +85,16 @@ export default function LibraryView({
           <option value="hardest">Hardest</option>
           <option value="due">Due soonest</option>
         </select>
+        {allTags.length > 0 && (
+          <select value={tagFilter} onChange={(e) => setTagFilter(e.target.value)} style={control}>
+            <option value="">All tags</option>
+            {allTags.map((t) => (
+              <option key={t} value={t}>
+                {t}
+              </option>
+            ))}
+          </select>
+        )}
         <label style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 13, color: "#78746B", cursor: "pointer" }}>
           <input type="checkbox" checked={weakOnly} onChange={(e) => setWeakOnly(e.target.checked)} />
           Needs work
@@ -125,7 +142,7 @@ function LibraryRow({
   const [draft, setDraft] = useState("");
   const [saving, setSaving] = useState(false);
   const [editing, setEditing] = useState(false);
-  const [form, setForm] = useState({ text: "", meaning: "", example: "", source: "", synonyms: "" });
+  const [form, setForm] = useState({ text: "", meaning: "", example: "", source: "", synonyms: "", tags: "" });
   const [editSaving, setEditSaving] = useState(false);
 
   function startEdit() {
@@ -135,6 +152,7 @@ function LibraryRow({
       example: e.example,
       source: e.source,
       synonyms: formatSynonyms(e.synonyms),
+      tags: e.tags.join(", "),
     });
     setEditing(true);
   }
@@ -242,6 +260,12 @@ function LibraryRow({
                   value={form.synonyms}
                   onChange={(v) => setForm({ ...form, synonyms: v })}
                 />
+                <EditField
+                  label="Tags (comma-separated)"
+                  value={form.tags}
+                  onChange={(v) => setForm({ ...form, tags: v })}
+                  mono
+                />
                 <div style={{ display: "flex", gap: 10, marginTop: 4 }}>
                   <button
                     onClick={saveEdit}
@@ -285,6 +309,25 @@ function LibraryRow({
                   </button>
                 </div>
                 {e.synonyms.length > 0 && <SynonymTags synonyms={e.synonyms} />}
+                {e.tags.length > 0 && (
+                  <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+                    {e.tags.map((t) => (
+                      <span
+                        key={t}
+                        style={{
+                          fontFamily: "'IBM Plex Mono', monospace",
+                          fontSize: 11,
+                          color: "#78746B",
+                          background: "#EFE3D5",
+                          borderRadius: 999,
+                          padding: "2px 10px",
+                        }}
+                      >
+                        #{t}
+                      </span>
+                    ))}
+                  </div>
+                )}
                 {e.source && <SourceLink source={e.source} />}
               </>
             )}
