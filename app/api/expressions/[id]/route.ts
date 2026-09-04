@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { updateExpression } from "@/lib/store";
 import { parseSynonyms } from "@/lib/synonyms";
+import { parseTags } from "@/lib/tags";
 import { errorResponse } from "@/lib/http";
 
 export const runtime = "nodejs";
@@ -19,6 +20,7 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ id: st
       example: (body?.example ?? "").trim(),
       source: (body?.source ?? "").trim(),
       synonyms: parseSynonyms(body?.synonyms ?? ""),
+      tags: parseTags(body?.tags ?? ""),
     });
     return NextResponse.json(updated);
   } catch (err) {

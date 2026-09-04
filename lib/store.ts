@@ -40,13 +40,11 @@ function mapReviewExample(doc: ReviewExampleDoc): ReviewExample {
   };
 }
 
-export async function getDueExpressions(today: string, limit = 20): Promise<Expression[]> {
+export async function getDueExpressions(today: string, limit = 20, tag?: string): Promise<Expression[]> {
   const col = await expressionsCol();
-  const docs = await col
-    .find({ reviewDue: { $lte: today } })
-    .sort({ reviewDue: 1 })
-    .limit(limit)
-    .toArray();
+  const filter: Record<string, unknown> = { reviewDue: { $lte: today } };
+  if (tag) filter.tags = tag;
+  const docs = await col.find(filter).sort({ reviewDue: 1 }).limit(limit).toArray();
   return docs.map(mapExpression);
 }
 
