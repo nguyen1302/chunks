@@ -1,0 +1,14982 @@
+[
+{
+"word": "a, an",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "about",
+"pos": "prep, adv",
+"level": "A1"
+},
+{
+"word": "above",
+"pos": "prep, adv",
+"level": "A1"
+},
+{
+"word": "across",
+"pos": "prep, adv",
+"level": "A1"
+},
+{
+"word": "action",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "activity",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "actor",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "actress",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "add",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "address",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "adult",
+"pos": "n, adj",
+"level": "A1"
+},
+{
+"word": "advice",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "afraid",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "after",
+"pos": "prep, conj, adv",
+"level": "A1"
+},
+{
+"word": "afternoon",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "again",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "age",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "ago",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "agree",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "air",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "airport",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "all",
+"pos": "det, pron, adv",
+"level": "A1"
+},
+{
+"word": "also",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "always",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "amazing",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "and",
+"pos": "conj",
+"level": "A1"
+},
+{
+"word": "angry",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "animal",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "another",
+"pos": "det, pron",
+"level": "A1"
+},
+{
+"word": "answer",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "any",
+"pos": "det, pron, adv",
+"level": "A1"
+},
+{
+"word": "anyone",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "anything",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "apartment",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "apple",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "April",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "area",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "arm",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "around",
+"pos": "prep, adv",
+"level": "A1"
+},
+{
+"word": "arrive",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "art",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "article",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "artist",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "as",
+"pos": "prep, adv, conj",
+"level": "A1"
+},
+{
+"word": "ask",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "at",
+"pos": "prep",
+"level": "A1"
+},
+{
+"word": "August",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "aunt",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "away",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "awesome",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "baby",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "back",
+"pos": "n, adv, adj, v",
+"level": "A1"
+},
+{
+"word": "bad",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "bag",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "ball",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "banana",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "band",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "bank (money)",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "bar",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "baseball",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "basketball",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "bath",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "bathroom",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "be",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "beach",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "beautiful",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "because",
+"pos": "conj",
+"level": "A1"
+},
+{
+"word": "become",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "bed",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "bedroom",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "beer",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "before",
+"pos": "prep, conj, adv",
+"level": "A1"
+},
+{
+"word": "begin",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "beginning",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "behind",
+"pos": "prep, adv",
+"level": "A1"
+},
+{
+"word": "believe",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "below",
+"pos": "adv, prep",
+"level": "A1"
+},
+{
+"word": "best",
+"pos": "adj, adv, n",
+"level": "A1"
+},
+{
+"word": "better",
+"pos": "adj, adv, n",
+"level": "A1"
+},
+{
+"word": "between",
+"pos": "prep, adv",
+"level": "A1"
+},
+{
+"word": "bicycle",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "big",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "bike",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "bill",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "bird",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "birthday",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "black",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "blog",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "blond",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "blue",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "boat",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "body",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "book",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "boot",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "bored",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "boring",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "born",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "both",
+"pos": "det, pron",
+"level": "A1"
+},
+{
+"word": "bottle",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "box",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "boy",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "boyfriend",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "bread",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "break",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "breakfast",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "bring",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "brother",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "brown",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "build",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "building",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "bus",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "business",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "busy",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "but",
+"pos": "conj, prep",
+"level": "A1"
+},
+{
+"word": "butter",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "buy",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "by",
+"pos": "prep, adv",
+"level": "A1"
+},
+{
+"word": "bye",
+"pos": "exclam",
+"level": "A1"
+},
+{
+"word": "cafe",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "cake",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "call",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "camera",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "can1 modal",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "cannot",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "capital",
+"pos": "n, adj",
+"level": "A1"
+},
+{
+"word": "car",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "card",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "career",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "carrot",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "carry",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "cat",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "CD",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "cent",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "center",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "chair",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "change",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "chart",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "cheap",
+"pos": "adj, adv",
+"level": "A1"
+},
+{
+"word": "check",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "cheese",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "chicken",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "child",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "chocolate",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "choose",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "city",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "class",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "classroom",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "clean",
+"pos": "adj, v",
+"level": "A1"
+},
+{
+"word": "climb",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "clock",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "close1",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "clothes",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "club",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "coat",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "coffee",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "cold",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "college",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "color",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "come",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "common",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "company",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "compare",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "complete",
+"pos": "adj, v",
+"level": "A1"
+},
+{
+"word": "computer",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "concert",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "conversation",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "cook",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "cooking",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "cool",
+"pos": "adj, v",
+"level": "A1"
+},
+{
+"word": "correct",
+"pos": "adj, v",
+"level": "A1"
+},
+{
+"word": "cost",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "could modal",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "country",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "course",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "cousin",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "cow",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "cream",
+"pos": "n, adj",
+"level": "A1"
+},
+{
+"word": "create",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "culture",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "cup",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "customer",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "cut",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "dad",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "dance",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "dancer",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "dancing",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "dangerous",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "dark",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "date",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "daughter",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "day",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "dear",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "December",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "decide",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "delicious",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "describe",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "description",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "design",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "desk",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "detail",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "dialogue",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "dictionary",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "die",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "diet",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "difference",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "different",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "difficult",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "dinner",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "dirty",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "discuss",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "dish",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "do1",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "doctor",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "dog",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "dollar",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "door",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "down",
+"pos": "adv, prep",
+"level": "A1"
+},
+{
+"word": "downstairs",
+"pos": "adv, adj",
+"level": "A1"
+},
+{
+"word": "draw",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "dress",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "drink",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "drive",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "driver",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "during",
+"pos": "prep",
+"level": "A1"
+},
+{
+"word": "DVD",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "each",
+"pos": "det, pron, adv",
+"level": "A1"
+},
+{
+"word": "ear",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "early",
+"pos": "adj, adv",
+"level": "A1"
+},
+{
+"word": "east",
+"pos": "n, adj, adv",
+"level": "A1"
+},
+{
+"word": "easy",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "eat",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "egg",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "eight",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "eighteen",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "eighty",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "elephant",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "eleven",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "else",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "email",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "end",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "enjoy",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "enough",
+"pos": "det, pron, adv",
+"level": "A1"
+},
+{
+"word": "euro",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "even",
+"pos": "adv, adj",
+"level": "A1"
+},
+{
+"word": "evening",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "event",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "ever",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "every",
+"pos": "det",
+"level": "A1"
+},
+{
+"word": "everybody",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "everyone",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "everything",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "exam",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "example",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "excited",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "exciting",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "exercise",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "expensive",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "explain",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "extra",
+"pos": "adj, n, adv",
+"level": "A1"
+},
+{
+"word": "eye",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "face",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "fact",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "fall",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "false",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "family",
+"pos": "n, adj",
+"level": "A1"
+},
+{
+"word": "famous",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "fantastic",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "far",
+"pos": "adv, adj",
+"level": "A1"
+},
+{
+"word": "farm",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "farmer",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "fast",
+"pos": "adj, adv",
+"level": "A1"
+},
+{
+"word": "fat",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "father",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "favorite",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "February",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "feel",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "feeling",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "festival",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "few",
+"pos": "det, adj, pron",
+"level": "A1"
+},
+{
+"word": "fifteen",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "fifth",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "fifty",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "fill",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "final",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "find",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "fine",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "finish",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "fire",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "first",
+"pos": "det, adv, n",
+"level": "A1"
+},
+{
+"word": "fish",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "five",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "flight",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "floor",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "flower",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "fly",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "follow",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "food",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "foot",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "football",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "for",
+"pos": "prep",
+"level": "A1"
+},
+{
+"word": "forget",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "form",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "forty",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "four",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "fourteen",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "fourth",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "free",
+"pos": "adj, adv, v",
+"level": "A1"
+},
+{
+"word": "Friday",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "friend",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "friendly",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "from",
+"pos": "prep",
+"level": "A1"
+},
+{
+"word": "front",
+"pos": "n, adj",
+"level": "A1"
+},
+{
+"word": "fruit",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "full",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "fun",
+"pos": "n, adj",
+"level": "A1"
+},
+{
+"word": "funny",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "future",
+"pos": "n, adj",
+"level": "A1"
+},
+{
+"word": "game",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "garden",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "geography",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "get",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "girl",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "girlfriend",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "give",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "glass",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "go",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "good",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "goodbye",
+"pos": "exclam, n",
+"level": "A1"
+},
+{
+"word": "grandfather",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "grandmother",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "grandparent",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "gray",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "great",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "green",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "group",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "grow",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "guess",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "guitar",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "gym",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "hair",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "half",
+"pos": "n, det, pron, adv",
+"level": "A1"
+},
+{
+"word": "hand",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "happen",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "happy",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "hard",
+"pos": "adj, adv",
+"level": "A1"
+},
+{
+"word": "hat",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "hate",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "have",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "have to modal",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "he",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "head",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "health",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "healthy",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "hear",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "hello",
+"pos": "exclam, n",
+"level": "A1"
+},
+{
+"word": "help",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "her",
+"pos": "pron, det",
+"level": "A1"
+},
+{
+"word": "here",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "hey",
+"pos": "exclam",
+"level": "A1"
+},
+{
+"word": "hi",
+"pos": "exclam",
+"level": "A1"
+},
+{
+"word": "high",
+"pos": "adj, adv, n",
+"level": "A1"
+},
+{
+"word": "him",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "his",
+"pos": "det, pron",
+"level": "A1"
+},
+{
+"word": "history",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "hobby",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "home",
+"pos": "n, adv, adj",
+"level": "A1"
+},
+{
+"word": "homework",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "hope",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "horse",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "hospital",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "hot",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "hotel",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "hour",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "house",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "how",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "however",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "hundred",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "hungry",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "husband",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "I",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "ice",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "ice cream",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "idea",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "if",
+"pos": "conj",
+"level": "A1"
+},
+{
+"word": "imagine",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "important",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "improve",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "in",
+"pos": "prep, adv",
+"level": "A1"
+},
+{
+"word": "include",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "information",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "interest",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "interested",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "interesting",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "internet",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "interview",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "into",
+"pos": "prep",
+"level": "A1"
+},
+{
+"word": "introduce",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "island",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "it",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "its",
+"pos": "det",
+"level": "A1"
+},
+{
+"word": "jacket",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "January",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "jeans",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "job",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "join",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "juice",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "July",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "June",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "just",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "keep",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "key",
+"pos": "n, adj, v",
+"level": "A1"
+},
+{
+"word": "kind (type)",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "kitchen",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "know",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "land",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "language",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "large",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "last1 (final)",
+"pos": "det, adv, n",
+"level": "A1"
+},
+{
+"word": "late",
+"pos": "adj, adv",
+"level": "A1"
+},
+{
+"word": "later",
+"pos": "adv, adj",
+"level": "A1"
+},
+{
+"word": "laugh",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "learn",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "leave",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "left",
+"pos": "adj, adv, n",
+"level": "A1"
+},
+{
+"word": "leg",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "lesson",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "let",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "letter",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "library",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "lie1",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "life",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "like (find sb/sth pleasant)",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "like (similar)",
+"pos": "prep",
+"level": "A1"
+},
+{
+"word": "line",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "lion",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "list",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "listen",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "little",
+"pos": "adj, det, pron, adv",
+"level": "A1"
+},
+{
+"word": "live1",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "local",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "long1",
+"pos": "adj, adv",
+"level": "A1"
+},
+{
+"word": "look",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "lose",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "lot",
+"pos": "pron, det, adv",
+"level": "A1"
+},
+{
+"word": "love",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "lunch",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "machine",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "magazine",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "main",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "make",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "mall",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "man",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "many",
+"pos": "det, pron",
+"level": "A1"
+},
+{
+"word": "map",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "March",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "market",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "married",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "May",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "maybe",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "me",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "meal",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "mean",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "meaning",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "meat",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "meet",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "meeting",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "member",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "menu",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "message",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "meter",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "midnight",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "mile",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "milk",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "million",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "minute1",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "miss",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "mistake",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "model",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "modern",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "mom",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "moment",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "Monday",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "money",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "month",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "more",
+"pos": "det, pron, adv",
+"level": "A1"
+},
+{
+"word": "morning",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "most",
+"pos": "det, pron, adv",
+"level": "A1"
+},
+{
+"word": "mother",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "mountain",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "mouse",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "mouth",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "move",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "movie",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "much",
+"pos": "det, pron, adv",
+"level": "A1"
+},
+{
+"word": "museum",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "music",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "must modal",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "my",
+"pos": "det",
+"level": "A1"
+},
+{
+"word": "name",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "natural",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "near",
+"pos": "prep, adj, adv",
+"level": "A1"
+},
+{
+"word": "need",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "negative",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "neighbor",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "neighborhood",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "never",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "new",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "news",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "newspaper",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "next",
+"pos": "adj, adv, n",
+"level": "A1"
+},
+{
+"word": "next to",
+"pos": "prep",
+"level": "A1"
+},
+{
+"word": "nice",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "night",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "nine",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "nineteen",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "ninety",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "no",
+"pos": "exclam, det",
+"level": "A1"
+},
+{
+"word": "no one",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "nobody",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "north",
+"pos": "n, adj, adv",
+"level": "A1"
+},
+{
+"word": "nose",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "not",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "note",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "nothing",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "November",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "now",
+"pos": "adv, conj",
+"level": "A1"
+},
+{
+"word": "nurse",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "object",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "ocean",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "October",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "of",
+"pos": "prep",
+"level": "A1"
+},
+{
+"word": "off",
+"pos": "adv, prep",
+"level": "A1"
+},
+{
+"word": "office",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "often",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "oh",
+"pos": "exclam",
+"level": "A1"
+},
+{
+"word": "OK",
+"pos": "exclam, adj, adv",
+"level": "A1"
+},
+{
+"word": "old",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "on",
+"pos": "prep, adv",
+"level": "A1"
+},
+{
+"word": "once",
+"pos": "adv, conj",
+"level": "A1"
+},
+{
+"word": "one",
+"pos": "det, pron",
+"level": "A1"
+},
+{
+"word": "onion",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "online",
+"pos": "adj, adv",
+"level": "A1"
+},
+{
+"word": "only",
+"pos": "adj, adv",
+"level": "A1"
+},
+{
+"word": "open",
+"pos": "adj, v",
+"level": "A1"
+},
+{
+"word": "opinion",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "opposite",
+"pos": "adj, adv, prep, n",
+"level": "A1"
+},
+{
+"word": "or",
+"pos": "conj",
+"level": "A1"
+},
+{
+"word": "orange",
+"pos": "n, adj",
+"level": "A1"
+},
+{
+"word": "order",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "other",
+"pos": "adj, pron",
+"level": "A1"
+},
+{
+"word": "our",
+"pos": "det",
+"level": "A1"
+},
+{
+"word": "out",
+"pos": "adv, prep",
+"level": "A1"
+},
+{
+"word": "outside",
+"pos": "adv, prep, noun",
+"level": "A1"
+},
+{
+"word": "over",
+"pos": "prep, adv",
+"level": "A1"
+},
+{
+"word": "own",
+"pos": "adj, pron, v",
+"level": "A1"
+},
+{
+"word": "o’clock",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "page",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "paint",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "painting",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "pair",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "pants",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "paper",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "paragraph",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "parent",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "park",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "part",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "partner",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "party",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "passport",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "past",
+"pos": "adj, n, prep, adv",
+"level": "A1"
+},
+{
+"word": "pay",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "pen",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "pencil",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "people",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "pepper",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "perfect",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "period",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "person",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "personal",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "phone",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "photo",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "photograph",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "phrase",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "piano",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "picture",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "piece",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "pig",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "pink",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "place",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "plan",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "plane",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "plant",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "play",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "player",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "please",
+"pos": "exclam, v",
+"level": "A1"
+},
+{
+"word": "point",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "police",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "policeman",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "pool",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "poor",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "popular",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "positive",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "possible",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "post",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "potato",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "pound",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "practice",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "prefer",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "prepare",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "present",
+"pos": "adj, n, v",
+"level": "A1"
+},
+{
+"word": "pretty",
+"pos": "adj, adv",
+"level": "A1"
+},
+{
+"word": "price",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "probably",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "problem",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "product",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "program",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "project",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "purple",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "put",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "quarter",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "question",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "quick",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "quickly",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "quiet",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "quite",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "radio",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "rain",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "read",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "reader",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "reading",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "ready",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "real",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "really",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "reason",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "red",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "relax",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "remember",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "repeat",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "report",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "restaurant",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "result",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "return",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "rice",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "rich",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "ride",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "right",
+"pos": "adj, adv, n",
+"level": "A1"
+},
+{
+"word": "river",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "road",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "room",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "routine",
+"pos": "n, adj",
+"level": "A1"
+},
+{
+"word": "rule",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "run",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "sad",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "salad",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "salt",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "same",
+"pos": "adj, pron, adv",
+"level": "A1"
+},
+{
+"word": "sandwich",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "Saturday",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "say",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "school",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "science",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "scientist",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "second1 (unit of time)",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "section",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "see",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "sell",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "send",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "sentence",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "September",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "seven",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "seventeen",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "seventy",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "share",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "she",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "sheep",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "shirt",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "shoe",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "shop",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "shopping",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "short",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "should modal",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "show",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "shower",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "sick",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "similar",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "sing",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "singer",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "sister",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "sit",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "situation",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "six",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "sixteen",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "sixty",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "skill",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "skirt",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "sleep",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "slow",
+"pos": "adj, v",
+"level": "A1"
+},
+{
+"word": "small",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "smart",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "snake",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "snow",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "so",
+"pos": "adv, conj",
+"level": "A1"
+},
+{
+"word": "some",
+"pos": "det, pron",
+"level": "A1"
+},
+{
+"word": "somebody",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "someone",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "something",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "sometimes",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "son",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "song",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "soon",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "sorry",
+"pos": "adj, exclam",
+"level": "A1"
+},
+{
+"word": "sound",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "soup",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "south",
+"pos": "n, adj, adv",
+"level": "A1"
+},
+{
+"word": "space",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "speak",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "special",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "spell",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "spelling",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "spend",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "sport",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "spring",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "stand",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "star",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "start",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "statement",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "station",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "stay",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "still",
+"pos": "adv, adj",
+"level": "A1"
+},
+{
+"word": "stop",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "store",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "story",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "street",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "strong",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "student",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "study",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "style",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "subject",
+"pos": "n, adj",
+"level": "A1"
+},
+{
+"word": "success",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "sugar",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "summer",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "sun",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "Sunday",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "supermarket",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "sure",
+"pos": "adj, adv",
+"level": "A1"
+},
+{
+"word": "sweater",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "swim",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "swimming",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "T-shirt",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "table",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "take",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "talk",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "tall",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "taxi",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "tea",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "teach",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "teacher",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "team",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "teenager",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "telephone",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "television",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "tell",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "ten",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "tennis",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "terrible",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "test",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "text",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "than",
+"pos": "conj",
+"level": "A1"
+},
+{
+"word": "thank",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "thanks",
+"pos": "exclam, n",
+"level": "A1"
+},
+{
+"word": "that",
+"pos": "det, pron, conj, adv",
+"level": "A1"
+},
+{
+"word": "the",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "theater",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "their",
+"pos": "det",
+"level": "A1"
+},
+{
+"word": "them",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "then",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "there",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "they",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "thing",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "think",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "third",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "thirsty",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "thirteen",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "thirty",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "this",
+"pos": "det, pron, adv",
+"level": "A1"
+},
+{
+"word": "thousand",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "three",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "through",
+"pos": "prep, adv",
+"level": "A1"
+},
+{
+"word": "Thursday",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "ticket",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "time",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "tired",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "title",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "to",
+"pos": "prep",
+"level": "A1"
+},
+{
+"word": "today",
+"pos": "adv, n",
+"level": "A1"
+},
+{
+"word": "together",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "toilet",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "tomato",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "tomorrow",
+"pos": "adv, n",
+"level": "A1"
+},
+{
+"word": "tonight",
+"pos": "adv, n",
+"level": "A1"
+},
+{
+"word": "too",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "tooth",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "topic",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "tourist",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "town",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "traffic",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "train",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "travel",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "tree",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "trip",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "truck",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "true",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "try",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "Tuesday",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "turn",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "TV",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "twelve",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "twenty",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "twice",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "two",
+"pos": "",
+"level": "A1"
+},
+{
+"word": "type",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "umbrella",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "uncle",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "under",
+"pos": "prep, adv",
+"level": "A1"
+},
+{
+"word": "understand",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "university",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "until",
+"pos": "conj, prep",
+"level": "A1"
+},
+{
+"word": "up",
+"pos": "adv, prep",
+"level": "A1"
+},
+{
+"word": "upstairs",
+"pos": "adv, adj",
+"level": "A1"
+},
+{
+"word": "us",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "use",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "useful",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "usually",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "vacation",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "vegetable",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "very",
+"pos": "adv, adj",
+"level": "A1"
+},
+{
+"word": "video",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "visit",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "visitor",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "wait",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "waiter",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "wake",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "walk",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "wall",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "want",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "warm",
+"pos": "adj, v",
+"level": "A1"
+},
+{
+"word": "wash",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "watch",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "water",
+"pos": "n, v",
+"level": "A1"
+},
+{
+"word": "way",
+"pos": "n, adv",
+"level": "A1"
+},
+{
+"word": "we",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "wear",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "weather",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "website",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "Wednesday",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "week",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "weekend",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "welcome",
+"pos": "exclam, v, adj, n",
+"level": "A1"
+},
+{
+"word": "well",
+"pos": "adv, adj, exclam",
+"level": "A1"
+},
+{
+"word": "west",
+"pos": "n, adj, adv",
+"level": "A1"
+},
+{
+"word": "what",
+"pos": "pron, det",
+"level": "A1"
+},
+{
+"word": "when",
+"pos": "adv, pron, conj",
+"level": "A1"
+},
+{
+"word": "where",
+"pos": "adv, conj",
+"level": "A1"
+},
+{
+"word": "which",
+"pos": "pron, det",
+"level": "A1"
+},
+{
+"word": "white",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "who",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "why",
+"pos": "adv",
+"level": "A1"
+},
+{
+"word": "wife",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "will modal",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "win",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "window",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "wine",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "winter",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "with",
+"pos": "prep",
+"level": "A1"
+},
+{
+"word": "without",
+"pos": "prep",
+"level": "A1"
+},
+{
+"word": "woman",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "wonderful",
+"pos": "adj",
+"level": "A1"
+},
+{
+"word": "word",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "work",
+"pos": "v, n",
+"level": "A1"
+},
+{
+"word": "worker",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "world",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "would modal",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "write",
+"pos": "v",
+"level": "A1"
+},
+{
+"word": "writer",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "writing",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "wrong",
+"pos": "adj, adv, n",
+"level": "A1"
+},
+{
+"word": "yard",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "yeah",
+"pos": "exclam",
+"level": "A1"
+},
+{
+"word": "year",
+"pos": "n",
+"level": "A1"
+},
+{
+"word": "yellow",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "yes",
+"pos": "exclam",
+"level": "A1"
+},
+{
+"word": "yesterday",
+"pos": "adv, n",
+"level": "A1"
+},
+{
+"word": "you",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "young",
+"pos": "adj, n",
+"level": "A1"
+},
+{
+"word": "your",
+"pos": "det",
+"level": "A1"
+},
+{
+"word": "yourself",
+"pos": "pron",
+"level": "A1"
+},
+{
+"word": "ability",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "able",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "accept",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "accident",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "according to",
+"pos": "prep",
+"level": "A2"
+},
+{
+"word": "achieve",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "act",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "active",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "actually",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "advantage",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "adventure",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "advertise",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "advertisement",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "advertising",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "affect",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "against",
+"pos": "prep",
+"level": "A2"
+},
+{
+"word": "ah",
+"pos": "exclam",
+"level": "A2"
+},
+{
+"word": "airline",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "alive",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "all right",
+"pos": "adj, adv",
+"level": "A2"
+},
+{
+"word": "allow",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "almost",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "alone",
+"pos": "adj, adv",
+"level": "A2"
+},
+{
+"word": "along",
+"pos": "prep, adv",
+"level": "A2"
+},
+{
+"word": "already",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "alternative",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "although",
+"pos": "conj",
+"level": "A2"
+},
+{
+"word": "among",
+"pos": "prep",
+"level": "A2"
+},
+{
+"word": "amount",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "analyze",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "ancient",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "ankle",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "anybody",
+"pos": "pron",
+"level": "A2"
+},
+{
+"word": "anymore",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "anyway",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "anywhere",
+"pos": "adv, pron",
+"level": "A2"
+},
+{
+"word": "app",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "appear",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "appearance",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "apply",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "architect",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "architecture",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "argue",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "argument",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "army",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "arrange",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "arrangement",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "asleep",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "assistant",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "athlete",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "attack",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "attend",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "attention",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "attractive",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "audience",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "author",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "available",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "average",
+"pos": "adj, n, v",
+"level": "A2"
+},
+{
+"word": "avoid",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "award",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "awful",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "background",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "badly",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "based",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "bean",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "bear (animal)",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "beat",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "beef",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "behave",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "behavior",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "belong",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "belt",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "benefit",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "billion",
+"pos": "",
+"level": "A2"
+},
+{
+"word": "biology",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "birth",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "bit",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "blank",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "block",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "blood",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "blow",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "board",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "boil",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "bone",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "borrow",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "boss",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "bottom",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "bowl",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "brain",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "bridge",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "bright",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "brilliant",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "broken",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "brush",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "burn",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "businessman",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "button",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "camp",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "camping",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "campus",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "can2",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "candy",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "care",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "careful",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "carefully",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "carpet",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "cartoon",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "case",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "cash",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "catch",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "cause",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "celebrate",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "celebrity",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "cell",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "century",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "certain",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "certainly",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "chance",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "character",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "charity",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "chat",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "chef",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "chemistry",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "chip",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "choice",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "church",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "cigarette",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "circle",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "classical",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "clear",
+"pos": "adj, v",
+"level": "A2"
+},
+{
+"word": "clearly",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "clerk",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "climate",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "close2",
+"pos": "adj, adv",
+"level": "A2"
+},
+{
+"word": "closed",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "closet",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "clothing",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "cloud",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "coach",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "coast",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "code",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "colleague",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "collect",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "column",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "comedy",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "comfortable",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "comment",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "communicate",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "community",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "compete",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "competition",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "complain",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "completely",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "condition",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "conference",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "connect",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "connected",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "consider",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "contain",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "context",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "continent",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "continue",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "control",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "cookie",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "copy",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "corner",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "correctly",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "count",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "couple",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "cover",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "crazy",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "creative",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "credit",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "crime",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "criminal",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "cross",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "crowd",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "crowded",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "cry",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "curly",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "cycle",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "daily",
+"pos": "adj, adv",
+"level": "A2"
+},
+{
+"word": "danger",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "data",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "dead",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "deal",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "death",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "decision",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "deep",
+"pos": "adj, adv",
+"level": "A2"
+},
+{
+"word": "definitely",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "degree",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "dentist",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "department",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "depend",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "desert",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "designer",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "dessert",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "destroy",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "detective",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "develop",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "device",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "diary",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "differently",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "digital",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "direct",
+"pos": "adj, v, adv",
+"level": "A2"
+},
+{
+"word": "direction",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "director",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "disagree",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "disappear",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "disaster",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "discover",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "discovery",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "discussion",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "disease",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "distance",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "divorced",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "document",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "double",
+"pos": "adj, det, pron, v, adv",
+"level": "A2"
+},
+{
+"word": "download",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "downtown",
+"pos": "adv, n, adj",
+"level": "A2"
+},
+{
+"word": "drama",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "drawing",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "dream",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "driving",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "drop",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "drug",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "dry",
+"pos": "adj, v",
+"level": "A2"
+},
+{
+"word": "earn",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "earth",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "easily",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "education",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "effect",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "either",
+"pos": "det, pron, adv",
+"level": "A2"
+},
+{
+"word": "electric",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "electrical",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "electricity",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "electronic",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "elevator",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "employ",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "employee",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "employer",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "empty",
+"pos": "adj, v",
+"level": "A2"
+},
+{
+"word": "ending",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "energy",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "engine",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "engineer",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "enormous",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "enter",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "environment",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "equipment",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "error",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "especially",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "essay",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "everyday",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "everywhere",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "evidence",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "exact",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "exactly",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "excellent",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "except",
+"pos": "prep, conj",
+"level": "A2"
+},
+{
+"word": "exist",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "expect",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "experience",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "experiment",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "expert",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "explanation",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "express",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "expression",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "extreme",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "extremely",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "factor",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "factory",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "fail",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "fair",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "fan",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "farming",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "fashion",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "fear",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "feature",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "feed",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "female",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "fever",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "fiction",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "field",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "fight",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "figure",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "film",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "finally",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "finger",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "fishing",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "fit",
+"pos": "v, adj",
+"level": "A2"
+},
+{
+"word": "fix",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "flat",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "flu",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "flying",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "focus",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "following",
+"pos": "adj, n, prep",
+"level": "A2"
+},
+{
+"word": "foreign",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "forest",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "fork",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "formal",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "fortunately",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "forward",
+"pos": "adv, adj",
+"level": "A2"
+},
+{
+"word": "fresh",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "frog",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "furniture",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "further",
+"pos": "adj, adv",
+"level": "A2"
+},
+{
+"word": "gallery",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "gap",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "garbage",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "gas",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "gate",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "general",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "gift",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "goal",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "god",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "gold",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "golf",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "government",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "grass",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "greet",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "grocery",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "ground",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "guest",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "guide",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "gun",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "guy",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "habit",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "hall",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "happily",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "headache",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "heart",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "heat",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "heavy",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "height",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "helpful",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "hero",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "hers",
+"pos": "pron",
+"level": "A2"
+},
+{
+"word": "herself",
+"pos": "pron",
+"level": "A2"
+},
+{
+"word": "hide",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "hill",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "himself",
+"pos": "pron",
+"level": "A2"
+},
+{
+"word": "hit",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "hockey",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "hold",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "hole",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "holiday",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "huge",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "human",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "hurt",
+"pos": "v, adj, n",
+"level": "A2"
+},
+{
+"word": "ideal",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "identify",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "ill",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "illness",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "image",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "immediately",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "impossible",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "included",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "including",
+"pos": "prep",
+"level": "A2"
+},
+{
+"word": "increase",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "incredible",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "independent",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "individual",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "industry",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "informal",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "injury",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "insect",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "inside",
+"pos": "prep, adv, n, adj",
+"level": "A2"
+},
+{
+"word": "instead",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "instruction",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "instructor",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "instrument",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "intelligent",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "international",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "introduction",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "invent",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "invention",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "invitation",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "invite",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "involve",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "item",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "itself",
+"pos": "pron",
+"level": "A2"
+},
+{
+"word": "jam",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "jazz",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "jewelry",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "joke",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "journalist",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "jump",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "kid",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "kill",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "kilometer",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "king",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "knee",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "knife",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "knock",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "knowledge",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "lab",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "lady",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "lake",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "lamp",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "laptop",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "last1 (taking time)",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "laughter",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "law",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "lawyer",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "lazy",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "lead1",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "leader",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "learning",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "least",
+"pos": "det, pron, adv",
+"level": "A2"
+},
+{
+"word": "lecture",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "lemon",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "lend",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "less",
+"pos": "det, pron, adv",
+"level": "A2"
+},
+{
+"word": "level",
+"pos": "n, adj, v",
+"level": "A2"
+},
+{
+"word": "lifestyle",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "lift",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "light (not heavy)",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "likely",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "link",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "listener",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "lock",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "lost",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "loud",
+"pos": "adj, adv",
+"level": "A2"
+},
+{
+"word": "loudly",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "low",
+"pos": "adj, adv, n",
+"level": "A2"
+},
+{
+"word": "luck",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "lucky",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "mail",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "major",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "male",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "manage",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "manager",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "manner",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "mark",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "marry",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "material",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "math",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "mathematics",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "matter",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "may modal",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "mayor",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "media",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "medical",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "medicine",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "memory",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "mention",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "metal",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "method",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "middle",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "might modal",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "mind",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "mine (belongs to me)",
+"pos": "pron",
+"level": "A2"
+},
+{
+"word": "mirror",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "missing",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "monkey",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "moon",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "mostly",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "motorcycle",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "movement",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "musical",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "musician",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "myself",
+"pos": "pron",
+"level": "A2"
+},
+{
+"word": "narrow",
+"pos": "adj, v",
+"level": "A2"
+},
+{
+"word": "national",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "nature",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "nearly",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "necessary",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "neck",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "neither",
+"pos": "det, pron, adv",
+"level": "A2"
+},
+{
+"word": "nervous",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "network",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "noise",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "noisy",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "none",
+"pos": "pron",
+"level": "A2"
+},
+{
+"word": "normal",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "normally",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "notice",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "novel",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "nowhere",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "nut",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "offer",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "officer",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "oil",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "onto",
+"pos": "prep",
+"level": "A2"
+},
+{
+"word": "opportunity",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "option",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "ordinary",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "organization",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "organize",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "original",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "ourselves",
+"pos": "pron",
+"level": "A2"
+},
+{
+"word": "oven",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "overseas",
+"pos": "adv, adj",
+"level": "A2"
+},
+{
+"word": "owner",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "pack",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "pain",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "painter",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "palace",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "parking",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "particular",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "pass",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "passenger",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "patient",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "pattern",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "peace",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "penny",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "per",
+"pos": "prep",
+"level": "A2"
+},
+{
+"word": "percent noun.",
+"pos": "noun, adj, adv",
+"level": "A2"
+},
+{
+"word": "perform",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "perhaps",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "permission",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "personality",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "pet",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "physical",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "physics",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "pick",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "pilot",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "planet",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "plastic",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "plate",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "platform",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "pleased",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "pocket",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "polite",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "pollution",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "pop",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "population",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "position",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "possession",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "possibility",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "poster",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "power",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "predict",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "president",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "prevent",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "print",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "printer",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "prison",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "prize",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "process",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "produce",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "professional",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "professor",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "profile",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "progress",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "promise",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "pronounce",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "protect",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "provide",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "public",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "publish",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "pull",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "purpose",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "push",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "quality",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "quantity",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "queen",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "quietly",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "race (competition)",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "railroad",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "raise",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "rate",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "rather",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "reach",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "react",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "realize",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "receive",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "recent",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "recently",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "reception",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "recipe",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "recognize",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "recommend",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "record",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "recording",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "recycle",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "reduce",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "refer",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "refrigerator",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "refuse1",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "region",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "regular",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "relationship",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "remove",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "repair",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "replace",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "reply",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "reporter",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "request",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "research",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "researcher",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "respond",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "response",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "rest (remaining part)",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "rest (sleep/relax)",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "review",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "ring1",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "ring2",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "rise",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "rock (music)",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "rock (stone)",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "role",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "roof",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "round",
+"pos": "adj, adv, prep, n",
+"level": "A2"
+},
+{
+"word": "route",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "rude",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "runner",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "running",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "sadly",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "safe",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "sail",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "sailing",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "salary",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "sale",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "sauce",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "save",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "scared",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "scary",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "scene",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "schedule",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "score",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "screen",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "sea",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "search",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "season",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "seat",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "secret",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "secretary",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "seem",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "sense",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "separate",
+"pos": "adj, v",
+"level": "A2"
+},
+{
+"word": "series",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "serious",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "serve",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "service",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "several",
+"pos": "det, pron",
+"level": "A2"
+},
+{
+"word": "shake",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "shape",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "sheet",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "ship",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "shoulder",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "shout",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "shut",
+"pos": "v, adj",
+"level": "A2"
+},
+{
+"word": "side",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "sign",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "silver",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "simple",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "since",
+"pos": "prep, conj, adv",
+"level": "A2"
+},
+{
+"word": "singing",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "single",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "sir",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "site",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "size",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "ski",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "skiing",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "skin",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "sky",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "slowly",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "smartphone",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "smell",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "smile",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "smoke",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "smoking",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "sneaker",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "soap",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "soccer",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "social",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "society",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "sock",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "soft",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "soldier",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "solution",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "solve",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "somewhere",
+"pos": "adv, pron",
+"level": "A2"
+},
+{
+"word": "sort",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "source",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "speaker",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "specific",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "speech",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "speed",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "spider",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "spoon",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "square",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "stage",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "stair",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "stamp",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "state",
+"pos": "n, adj, v",
+"level": "A2"
+},
+{
+"word": "steal",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "step",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "stomach",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "stone",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "storm",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "stove",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "straight",
+"pos": "adv, adj",
+"level": "A2"
+},
+{
+"word": "strange",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "strategy",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "stress",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "structure",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "stupid",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "subway",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "succeed",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "successful",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "such",
+"pos": "det, pron",
+"level": "A2"
+},
+{
+"word": "suddenly",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "suggest",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "suggestion",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "suit",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "support",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "suppose",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "surprise",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "surprised",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "surprising",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "survey",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "sweet",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "symbol",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "system",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "tablet",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "target",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "task",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "taste",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "teaching",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "technology",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "teenage",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "temperature",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "term",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "themselves",
+"pos": "pron",
+"level": "A2"
+},
+{
+"word": "thick",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "thief",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "thin",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "thinking",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "thought",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "throw",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "tie",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "tip",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "tool",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "top",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "touch",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "tour",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "tourism",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "toward",
+"pos": "prep",
+"level": "A2"
+},
+{
+"word": "towel",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "tower",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "toy",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "track",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "tradition",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "traditional",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "training",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "transportation",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "trash",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "traveler",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "trouble",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "twin",
+"pos": "n, adj",
+"level": "A2"
+},
+{
+"word": "typical",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "underground",
+"pos": "adj, adv",
+"level": "A2"
+},
+{
+"word": "understanding",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "unfortunately",
+"pos": "adv",
+"level": "A2"
+},
+{
+"word": "unhappy",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "uniform",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "unit",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "united",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "unusual",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "used to modal",
+"pos": "v",
+"level": "A2"
+},
+{
+"word": "user",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "usual",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "valley",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "variety",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "vehicle",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "view",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "village",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "virus",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "voice",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "war",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "washing",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "wave",
+"pos": "n, v",
+"level": "A2"
+},
+{
+"word": "weak",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "web",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "wedding",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "weight",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "wet",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "wheel",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "while",
+"pos": "conj, n",
+"level": "A2"
+},
+{
+"word": "whole",
+"pos": "adj, n",
+"level": "A2"
+},
+{
+"word": "whose",
+"pos": "det, pron",
+"level": "A2"
+},
+{
+"word": "wide",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "wild",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "wind1",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "winner",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "wish",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "wood",
+"pos": "n",
+"level": "A2"
+},
+{
+"word": "wooden",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "working",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "worried",
+"pos": "adj",
+"level": "A2"
+},
+{
+"word": "worry",
+"pos": "v, n",
+"level": "A2"
+},
+{
+"word": "worse",
+"pos": "adj, adv, n",
+"level": "A2"
+},
+{
+"word": "worst",
+"pos": "adj, adv, n",
+"level": "A2"
+},
+{
+"word": "wow",
+"pos": "exclam",
+"level": "A2"
+},
+{
+"word": "yet",
+"pos": "adv, conj",
+"level": "A2"
+},
+{
+"word": "yours",
+"pos": "pron",
+"level": "A2"
+},
+{
+"word": "zero",
+"pos": "",
+"level": "A2"
+},
+{
+"word": "absolutely",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "academic",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "access",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "account",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "achievement",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "ad",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "addition",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "administration",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "admire",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "admit",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "advanced",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "advise",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "afford",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "agent",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "agreement",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "ahead",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "aim",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "alarm",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "album",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "alcohol",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "alcoholic",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "amazed",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "ambition",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "analysis",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "announce",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "announcement",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "annoy",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "annoyed",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "annoying",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "apart",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "apologize",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "application",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "appointment",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "appreciate",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "approximately",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "arrest",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "arrival",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "assignment",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "assist",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "atmosphere",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "attach",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "attitude",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "attract",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "attraction",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "authority",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "automatic",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "automatically",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "aware",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "backward",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "bake",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "balance",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "ban",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "bank (river)",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "base",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "basic",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "basis",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "battery",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "battle",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "beauty",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "bee",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "belief",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "bell",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "bend",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "bite",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "bomb",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "border",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "bother",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "branch",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "brand",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "brave",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "breath",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "breathe",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "breathing",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "bride",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "bubble",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "bury",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "cable",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "calm",
+"pos": "adj, v, n",
+"level": "B1"
+},
+{
+"word": "campaign",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "candidate",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "cap",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "captain",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "careless",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "category",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "ceiling",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "celebration",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "central",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "ceremony",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "chain",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "challenge",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "champion",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "channel",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "chapter",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "charge",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "cheat",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "cheerful",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "chemical",
+"pos": "adj, n",
+"level": "B1"
+},
+{
+"word": "chest",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "childhood",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "claim",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "clause",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "clever",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "click",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "client",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "cloth",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "clue",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "coal",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "coin",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "collection",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "colored",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "combine",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "commercial",
+"pos": "adj, n",
+"level": "B1"
+},
+{
+"word": "commit",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "communication",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "comparison",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "competitive",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "competitor",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "complaint",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "complex",
+"pos": "adj, n",
+"level": "B1"
+},
+{
+"word": "concentrate",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "conclude",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "conclusion",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "confident",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "confirm",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "confuse",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "confused",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "connection",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "consequence",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "consist",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "consume",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "consumer",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "contact",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "container",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "content1",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "continuous",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "contrast",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "convenient",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "convince",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "corn",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "costume",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "cotton",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "countryside",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "court",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "covered",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "cruel",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "cultural",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "cupboard",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "currency",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "current",
+"pos": "adj, n",
+"level": "B1"
+},
+{
+"word": "currently",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "curtain",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "custom",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "damage",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "decade",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "define",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "definite",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "definition",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "deliver",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "departure",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "despite",
+"pos": "prep",
+"level": "B1"
+},
+{
+"word": "destination",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "determine",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "determined",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "development",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "diagram",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "diamond",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "difficulty",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "directly",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "dirt",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "disadvantage",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "disappointed",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "disappointing",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "discount",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "dislike",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "district",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "divide",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "documentary",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "donate",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "doubt",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "dressed",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "drum",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "drunk",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "due",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "dust",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "duty",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "earthquake",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "eastern",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "economic",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "economy",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "edge",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "editor",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "educate",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "educated",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "educational",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "effective",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "effectively",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "effort",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "election",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "element",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "embarrassed",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "embarrassing",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "emergency",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "emotion",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "employment",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "encourage",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "enemy",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "engaged",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "engineering",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "entertain",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "entertainment",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "entrance",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "entry",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "environmental",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "episode",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "equal",
+"pos": "adj, v, n",
+"level": "B1"
+},
+{
+"word": "equally",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "escape",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "essential",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "eventually",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "examine",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "exchange",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "excitement",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "exhibition",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "exit",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "expand",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "expected",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "experienced",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "explode",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "explore",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "explosion",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "export",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "fairly",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "familiar",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "fancy",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "fascinating",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "fashionable",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "fasten",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "favor",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "federal",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "fence",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "fighting",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "file",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "financial",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "fitness",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "fixed",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "flag",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "flood",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "flour",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "flow",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "fold",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "folk",
+"pos": "n, adj",
+"level": "B1"
+},
+{
+"word": "force",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "forever",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "frame",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "freeze",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "frequently",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "friendship",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "frighten",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "frightened",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "frightening",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "frozen",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "fry",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "fuel",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "function",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "fur",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "garage",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "gather",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "generally",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "generation",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "generous",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "gentle",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "gentleman",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "ghost",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "giant",
+"pos": "adj, n",
+"level": "B1"
+},
+{
+"word": "glad",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "global",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "glove",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "grade",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "graduate",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "grain",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "grateful",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "growth",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "guard",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "guilty",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "hang",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "happiness",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "hardly",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "headline",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "heating",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "heavily",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "helicopter",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "highlight",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "highly",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "highway",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "hire",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "historic",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "historical",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "honest",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "horrible",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "horror",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "host",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "hunt",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "hurricane",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "hurry",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "identity",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "ignore",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "illegal",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "imaginary",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "immediate",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "immigrant",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "impact",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "import",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "importance",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "impression",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "impressive",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "improvement",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "incredibly",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "indeed",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "indicate",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "indirect",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "indoor",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "indoors",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "influence",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "ingredient",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "injure",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "injured",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "innocent",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "intelligence",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "intend",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "intention",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "invest",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "investigate",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "involved",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "iron",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "issue",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "IT",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "journal",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "journey",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "judge",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "keyboard",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "kick",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "killing",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "kind (caring)",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "kiss",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "label",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "laboratory",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "lack",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "latest",
+"pos": "adj, n",
+"level": "B1"
+},
+{
+"word": "lay",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "layer",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "leading",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "leaf",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "leather",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "legal",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "leisure",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "length",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "lie2 (tell a lie)",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "limit",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "lip",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "liquid",
+"pos": "n, adj",
+"level": "B1"
+},
+{
+"word": "literature",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "live2",
+"pos": "adj, adv",
+"level": "B1"
+},
+{
+"word": "living",
+"pos": "adj, n",
+"level": "B1"
+},
+{
+"word": "locate",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "located",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "location",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "lonely",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "loss",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "luxury",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "mad",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "magic",
+"pos": "n, adj",
+"level": "B1"
+},
+{
+"word": "mainly",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "management",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "marketing",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "marriage",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "meanwhile",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "measure",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "medium",
+"pos": "adj, n",
+"level": "B1"
+},
+{
+"word": "mental",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "mess",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "mild",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "mine (hole in the ground)",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "mix",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "mixture",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "mood",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "mud",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "murder",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "muscle",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "mystery",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "nail",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "narrative",
+"pos": "n, adj",
+"level": "B1"
+},
+{
+"word": "nation",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "native",
+"pos": "adj, n",
+"level": "B1"
+},
+{
+"word": "naturally",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "neat",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "necessarily",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "needle",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "net",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "nor",
+"pos": "conj, adv",
+"level": "B1"
+},
+{
+"word": "northern",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "nuclear",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "obvious",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "obviously",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "occasion",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "occur",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "odd",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "official",
+"pos": "adj, n",
+"level": "B1"
+},
+{
+"word": "old-fashioned",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "operation",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "organized",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "organizer",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "originally",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "ought modal",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "ours",
+"pos": "pron",
+"level": "B1"
+},
+{
+"word": "outdoor",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "outdoors",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "package",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "painful",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "pale",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "pan",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "participate",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "particularly",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "passion",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "path",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "payment",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "peaceful",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "percentage",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "perfectly",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "performance",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "personally",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "persuade",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "photographer",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "photography",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "pin",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "pipe",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "planning",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "pleasant",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "pleasure",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "plenty",
+"pos": "pron",
+"level": "B1"
+},
+{
+"word": "plot",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "plus1",
+"pos": "prep, adj, conj, n",
+"level": "B1"
+},
+{
+"word": "poem",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "poet",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "poetry",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "poison",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "poisonous",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "policy",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "political",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "politician",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "politics",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "port",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "portrait",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "possibly",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "pot",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "pour",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "poverty",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "powder",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "powerful",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "practical",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "pray",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "prayer",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "prediction",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "prepared",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "presentation",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "press",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "pressure",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "pretend",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "previous",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "previously",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "priest",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "primary",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "prince",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "princess",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "principal",
+"pos": "n, adj",
+"level": "B1"
+},
+{
+"word": "printing",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "prisoner",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "private",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "producer",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "production",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "profession",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "profit",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "promote",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "proper",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "properly",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "property",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "protest",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "proud",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "prove",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "punish",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "punishment",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "qualification",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "qualified",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "qualify",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "quit",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "quotation",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "quote",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "race (of people)",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "racing",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "range",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "rare",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "rarely",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "reaction",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "reality",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "receipt",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "recommendation",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "reference",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "reflect",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "regularly",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "reject",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "relate",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "related",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "relation",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "relative",
+"pos": "adj, n",
+"level": "B1"
+},
+{
+"word": "relaxed",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "relaxing",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "release",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "reliable",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "religion",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "religious",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "remain",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "remind",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "remote",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "rent",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "repeated",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "represent",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "require",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "reservation",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "resource",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "respect",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "responsibility",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "responsible",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "retire",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "retired",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "revise",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "risk",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "robot",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "roll",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "romantic",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "rope",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "rough",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "row1",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "royal",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "safety",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "sailor",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "sample",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "sand",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "scan",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "scientific",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "script",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "sculpture",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "secondary",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "security",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "seed",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "sensible",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "seriously",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "servant",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "set (group)",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "set (put)",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "setting",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "sex",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "sexual",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "sharp",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "shelf",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "shell",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "shift",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "shine",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "shiny",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "shoot",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "shy",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "sight",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "signal",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "silent",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "silly",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "similarity",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "similarly",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "simply",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "sink",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "slave",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "slice",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "slightly",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "smooth",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "software",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "soil",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "solid",
+"pos": "adj, n",
+"level": "B1"
+},
+{
+"word": "southern",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "specifically",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "spending",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "spicy",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "spirit",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "spoken",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "spot",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "spread",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "stadium",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "staff",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "standard",
+"pos": "n, adj",
+"level": "B1"
+},
+{
+"word": "statistic",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "statue",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "stick (piece of wood)",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "stick (push into/attach)",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "stranger",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "strength",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "string",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "strongly",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "studio",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "stuff",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "substance",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "successfully",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "sudden",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "suffer",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "suitable",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "summarize",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "summary",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "supply",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "supporter",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "surely",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "surface",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "survive",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "switch",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "symptom",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "tail",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "talent",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "talented",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "tape",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "tax",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "technical",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "technique",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "tend",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "tent",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "theirs",
+"pos": "pron",
+"level": "B1"
+},
+{
+"word": "theme",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "theory",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "therefore",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "though",
+"pos": "conj, adv",
+"level": "B1"
+},
+{
+"word": "throat",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "throughout",
+"pos": "prep, adv",
+"level": "B1"
+},
+{
+"word": "tight",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "till",
+"pos": "conj, prep",
+"level": "B1"
+},
+{
+"word": "tiny",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "tire",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "toe",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "ton",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "tongue",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "total",
+"pos": "adj, n",
+"level": "B1"
+},
+{
+"word": "totally",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "trade",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "trainer",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "translate",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "translation",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "transport",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "treat",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "treatment",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "trend",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "trick",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "truth",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "tube",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "typically",
+"pos": "adv",
+"level": "B1"
+},
+{
+"word": "ugly",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "unable",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "uncomfortable",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "underwear",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "unemployed",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "unemployment",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "unfair",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "union",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "unless",
+"pos": "conj",
+"level": "B1"
+},
+{
+"word": "unlike",
+"pos": "prep",
+"level": "B1"
+},
+{
+"word": "unlikely",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "unnecessary",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "unpleasant",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "update",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "upon",
+"pos": "prep",
+"level": "B1"
+},
+{
+"word": "upset",
+"pos": "adj, v",
+"level": "B1"
+},
+{
+"word": "used1",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "used2",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "valuable",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "value",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "various",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "version",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "victim",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "viewer",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "violent",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "volunteer",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "vote",
+"pos": "n, v",
+"level": "B1"
+},
+{
+"word": "warn",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "warning",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "waste",
+"pos": "n, v, adj",
+"level": "B1"
+},
+{
+"word": "weapon",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "weigh",
+"pos": "v",
+"level": "B1"
+},
+{
+"word": "western",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "whatever",
+"pos": "det, pron",
+"level": "B1"
+},
+{
+"word": "whenever",
+"pos": "conj",
+"level": "B1"
+},
+{
+"word": "whether",
+"pos": "conj",
+"level": "B1"
+},
+{
+"word": "wing",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "within",
+"pos": "prep",
+"level": "B1"
+},
+{
+"word": "wonder",
+"pos": "v, n",
+"level": "B1"
+},
+{
+"word": "wool",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "worldwide",
+"pos": "adj, adv",
+"level": "B1"
+},
+{
+"word": "worth",
+"pos": "adj, n",
+"level": "B1"
+},
+{
+"word": "written",
+"pos": "adj",
+"level": "B1"
+},
+{
+"word": "youth",
+"pos": "n",
+"level": "B1"
+},
+{
+"word": "abandon",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "abroad",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "absolute",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "acceptable",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "accompany",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "accurate",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "accuse",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "acknowledge",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "acquire",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "actual",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "adapt",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "additional",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "adopt",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "advance",
+"pos": "n, v, adj",
+"level": "B2"
+},
+{
+"word": "affair",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "afterward",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "agency",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "agenda",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "aggressive",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "aid",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "aircraft",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "alter",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "anger",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "angle",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "anniversary",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "annual",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "anxious",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "apparent",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "apparently",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "appeal",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "approach",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "appropriate",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "approval",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "approve",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "arise",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "armed",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "arms",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "artificial",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "artistic",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "ashamed",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "aside",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "aspect",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "assess",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "assessment",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "associate",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "associated",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "association",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "assume",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "attempt",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "attorney",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "bacteria",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "barrier",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "basically",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "bear (deal with)",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "beg",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "being",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "bent",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "bet",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "beyond",
+"pos": "prep, adv",
+"level": "B2"
+},
+{
+"word": "bitter",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "blame",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "blind",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "bond",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "breast",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "brief",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "broad",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "broadcast",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "budget",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "bullet",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "bunch",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "bush",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "calculate",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "cancel",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "cancer",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "capable",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "capacity",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "capture",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "cast",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "chairman",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "characteristic",
+"pos": "n, adj",
+"level": "B2"
+},
+{
+"word": "chief",
+"pos": "adj, n",
+"level": "B2"
+},
+{
+"word": "circumstance",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "cite",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "citizen",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "civil",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "classic",
+"pos": "adj, n",
+"level": "B2"
+},
+{
+"word": "closely",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "collapse",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "combination",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "comfort",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "command",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "commission",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "commitment",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "committee",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "commonly",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "complicated",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "component",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "concentration",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "concept",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "concern",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "concerned",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "conduct",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "confidence",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "conflict",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "confusing",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "congress",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "conscious",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "conservative",
+"pos": "adj, n",
+"level": "B2"
+},
+{
+"word": "consideration",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "consistent",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "constant",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "constantly",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "construct",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "construction",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "contemporary",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "contest",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "contract",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "contribute",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "contribution",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "convert",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "convinced",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "core",
+"pos": "n, adj",
+"level": "B2"
+},
+{
+"word": "corporate",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "council",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "county",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "courage",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "crash",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "creation",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "creature",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "crew",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "crisis",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "criterion",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "critic",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "critical",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "criticism",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "criticize",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "crop",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "crucial",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "cure",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "curve",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "curved",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "debate",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "debt",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "decent",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "declare",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "decline",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "decorate",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "decoration",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "decrease",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "deeply",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "defeat",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "defend",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "defense",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "delay",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "deliberate",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "deliberately",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "delivery",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "demand",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "demonstrate",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "deny",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "depressed",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "depressing",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "depth",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "deserve",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "desire",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "desperate",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "detailed",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "detect",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "dig",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "discipline",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "dishonest",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "disk",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "dismiss",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "display",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "distribute",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "distribution",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "division",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "domestic",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "dominate",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "downward",
+"pos": "adj, adv",
+"level": "B2"
+},
+{
+"word": "dozen",
+"pos": "n, det",
+"level": "B2"
+},
+{
+"word": "draft",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "drag",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "dramatic",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "edit",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "edition",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "efficient",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "elderly",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "elect",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "elsewhere",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "emerge",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "emotional",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "emphasis",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "emphasize",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "enable",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "encounter",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "engage",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "enhance",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "ensure",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "enthusiasm",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "enthusiastic",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "entire",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "entirely",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "establish",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "estate",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "estimate",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "ethical",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "evaluate",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "evil",
+"pos": "adj, n",
+"level": "B2"
+},
+{
+"word": "examination",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "excuse",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "executive",
+"pos": "n, adj",
+"level": "B2"
+},
+{
+"word": "exhibit",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "existence",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "expectation",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "expense",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "exploration",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "expose",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "extend",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "extent",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "external",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "extraordinary",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "facility",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "failure",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "faith",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "fault",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "feather",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "fee",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "feedback",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "fellow",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "finance",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "finding",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "firm",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "flame",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "flash",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "flexible",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "float",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "folding",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "forgive",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "former",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "fortune",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "found",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "freedom",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "frequency",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "fully",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "fund",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "fundamental",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "funding",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "furthermore",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "gain",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "gang",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "generate",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "genre",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "goods",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "govern",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "governor",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "grab",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "gradually",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "grand",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "grant",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "guarantee",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "handle",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "harm",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "harmful",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "hearing",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "heaven",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "heel",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "hell",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "hesitate",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "hollow",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "holy",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "honor",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "household",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "housing",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "humor",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "humorous",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "hunting",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "illustrate",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "illustration",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "imagination",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "impatient",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "imply",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "impose",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "impress",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "impressed",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "inch",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "incident",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "income",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "increasingly",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "industrial",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "infection",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "inform",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "initial",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "initially",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "initiative",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "inner",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "inquiry",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "insight",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "insist",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "inspire",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "install",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "instance",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "institute",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "institution",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "insurance",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "intended",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "intense",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "internal",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "interpret",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "interrupt",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "investigation",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "investment",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "joy",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "judgment",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "junior",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "justice",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "justify",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "labor",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "landscape",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "largely",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "launch",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "leadership",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "league",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "lean",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "license",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "limited",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "lively",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "load",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "loan",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "logical",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "long-term",
+"pos": "adj, adv",
+"level": "B2"
+},
+{
+"word": "loose",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "lord",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "lower",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "lung",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "maintain",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "majority",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "mass",
+"pos": "n, adj",
+"level": "B2"
+},
+{
+"word": "massive",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "master",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "matching",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "maximum",
+"pos": "adj, n",
+"level": "B2"
+},
+{
+"word": "means",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "measurement",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "melt",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "military",
+"pos": "adj, n",
+"level": "B2"
+},
+{
+"word": "mineral",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "minimum",
+"pos": "adj, n",
+"level": "B2"
+},
+{
+"word": "minister",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "minor",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "minority",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "mission",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "mixed",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "modify",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "monitor",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "moral",
+"pos": "adj, n",
+"level": "B2"
+},
+{
+"word": "motor",
+"pos": "n, adj",
+"level": "B2"
+},
+{
+"word": "mount",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "multiple",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "multiply",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "mysterious",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "nerve",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "nevertheless",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "nightmare",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "notion",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "numerous",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "obey",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "objective",
+"pos": "n, adj",
+"level": "B2"
+},
+{
+"word": "obligation",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "observation",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "observe",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "obtain",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "occasionally",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "offend",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "offense",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "offensive",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "opening",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "operate",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "opponent",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "oppose",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "opposed",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "opposition",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "organ",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "origin",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "otherwise",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "outcome",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "outer",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "outline",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "overall",
+"pos": "adj, adv",
+"level": "B2"
+},
+{
+"word": "owe",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "pace",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "panel",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "participant",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "partly",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "passage",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "permanent",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "permit",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "perspective",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "phase",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "phenomenon",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "philosophy",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "pile",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "pitch",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "plain",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "pointed",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "popularity",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "pose",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "possess",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "potential",
+"pos": "adj, n",
+"level": "B2"
+},
+{
+"word": "praise",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "pregnant",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "preparation",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "presence",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "preserve",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "prime",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "principle",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "priority",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "privacy",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "procedure",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "proof",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "proposal",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "propose",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "prospect",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "protection",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "psychologist",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "psychology",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "publication",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "purchase",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "pure",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "pursue",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "rank",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "rapid",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "rapidly",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "raw",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "realistic",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "reasonable",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "recall",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "recover",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "reduction",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "regard",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "regional",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "register",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "regret",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "regulation",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "relatively",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "relevant",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "relief",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "rely",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "remark",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "representative",
+"pos": "n, adj",
+"level": "B2"
+},
+{
+"word": "reputation",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "requirement",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "rescue",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "reserve",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "resident",
+"pos": "n, adj",
+"level": "B2"
+},
+{
+"word": "resist",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "resolve",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "resort",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "retain",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "reveal",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "revolution",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "reward",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "rhythm",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "rid",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "root",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "rub",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "rubber",
+"pos": "n, adj",
+"level": "B2"
+},
+{
+"word": "rural",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "rush",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "satellite",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "satisfied",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "satisfy",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "saving",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "scale",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "scream",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "sector",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "secure",
+"pos": "v, adj",
+"level": "B2"
+},
+{
+"word": "seek",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "select",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "selection",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "self",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "senate",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "senator",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "senior",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "sensitive",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "sequence",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "session",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "settle",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "severe",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "shade",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "shadow",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "shall modal",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "shallow",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "shame",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "shelter",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "shock",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "shocked",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "shooting",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "shot",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "significant",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "significantly",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "silence",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "silk",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "sincere",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "slide",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "slight",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "slip",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "slope",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "solar",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "somewhat",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "soul",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "specialist",
+"pos": "n, adj",
+"level": "B2"
+},
+{
+"word": "species",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "spiritual",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "split",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "sponsor",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "stable",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "stare",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "status",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "steady",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "steel",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "steep",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "sticky",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "stiff",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "stock",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "stream",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "stretch",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "strict",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "strike",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "struggle",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "submit",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "sum",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "surgery",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "surround",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "surrounding",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "suspect",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "swear",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "sweep",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "sympathy",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "tale",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "tank",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "tear1",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "tear2",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "temporary",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "therapy",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "threat",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "threaten",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "thus",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "tone",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "tough",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "transfer",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "transform",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "transition",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "trial",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "tropical",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "truly",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "trust",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "tune",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "tunnel",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "ultimately",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "unconscious",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "unexpected",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "unique",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "universe",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "unknown",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "upper",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "upward",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "urban",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "urge",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "van",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "vary",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "vast",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "venue",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "via",
+"pos": "prep",
+"level": "B2"
+},
+{
+"word": "victory",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "violence",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "virtual",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "vision",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "visual",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "vital",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "vitamin",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "volume",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "wage",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "weakness",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "wealth",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "wealthy",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "whereas",
+"pos": "conj",
+"level": "B2"
+},
+{
+"word": "wherever",
+"pos": "conj",
+"level": "B2"
+},
+{
+"word": "whisper",
+"pos": "v, n",
+"level": "B2"
+},
+{
+"word": "whom",
+"pos": "pron",
+"level": "B2"
+},
+{
+"word": "widely",
+"pos": "adv",
+"level": "B2"
+},
+{
+"word": "wildlife",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "willing",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "wind2",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "wire",
+"pos": "n",
+"level": "B2"
+},
+{
+"word": "wise",
+"pos": "adj",
+"level": "B2"
+},
+{
+"word": "witness",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "wound",
+"pos": "n, v",
+"level": "B2"
+},
+{
+"word": "wrap",
+"pos": "v",
+"level": "B2"
+},
+{
+"word": "zone",
+"pos": "n",
+"level": "B2"
+}
+]

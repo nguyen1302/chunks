@@ -103,6 +103,22 @@ Android, desktop Chrome).
   (`vercel.json`); it sends a push to all subscribers when `dueToday > 0` and
   prunes dead subscriptions. Vercel injects the `CRON_SECRET` bearer.
 
+## Oxford 3000 study plan
+
+Learn the Oxford 3000 (American English) via drip + spaced repetition:
+
+- `data/oxford3000.json` — parsed word list (word, POS, CEFR level).
+- `data/oxford3000-enriched.json` — Vietnamese meaning + example + collocation,
+  generated once with `node scripts/enrich-oxford.mjs` (uses the local `claude`
+  CLI — no API key).
+- Import into the `wordbank` collection: `node scripts/import-oxford.mjs`
+  (dormant; re-runnable, never touches existing expressions).
+- Turn it on in **Progress → Oxford 3000 study plan** (words/day, start level).
+  Each day the app activates the next N dormant words (A1→B2) as normal
+  Expressions — they then flow through the usual review/modes/TTS/reminders.
+- Endpoints: `GET /api/study/tick` (daily drip, run on app load),
+  `GET|PUT /api/study/plan` (progress + settings).
+
 ## Backups
 
 The free Atlas tier (M0) has no automated backups, so a local weekly snapshot
