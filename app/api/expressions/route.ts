@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { createExpression, getExpressionsWithStats } from "@/lib/notion";
+import { createExpression, getExpressionsWithStats } from "@/lib/store";
 import { todayStr } from "@/lib/dates";
 import { parseSynonyms } from "@/lib/synonyms";
 import { errorResponse } from "@/lib/http";

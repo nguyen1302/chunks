@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { updateExpression } from "@/lib/notion";
+import { updateExpression } from "@/lib/store";
 import { parseSynonyms } from "@/lib/synonyms";
 import { errorResponse } from "@/lib/http";
 
