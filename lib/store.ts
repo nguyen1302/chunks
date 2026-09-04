@@ -105,22 +105,26 @@ export async function getHistory(expressionId: string): Promise<ReviewExample[]>
 }
 
 export async function submitReview(
-  input: { expressionId: string; sentence: string; result: ReviewResult },
+  input: { expressionId: string; sentence?: string; result: ReviewResult },
   today: string,
 ): Promise<void> {
   const expr = await getExpression(input.expressionId);
   const next = computeNextReview({ level: expr.level, reviewCount: expr.reviewCount }, input.result, today);
 
-  // 1) create a NEW review example (never overwrite)
-  const examples = await reviewExamplesCol();
-  await examples.insertOne({
-    sentence: input.sentence,
-    reviewDate: today,
-    result: input.result,
-    expressionId: input.expressionId,
-  });
+  // 1) create a NEW review example ONLY when a sentence was written
+  //    (Write mode). Cloze/Reverse modes grade without writing → no example.
+  const sentence = (input.sentence ?? "").trim();
+  if (sentence) {
+    const examples = await reviewExamplesCol();
+    await examples.insertOne({
+      sentence,
+      reviewDate: today,
+      result: input.result,
+      expressionId: input.expressionId,
+    });
+  }
 
-  // 2) update the expression schedule
+  // 2) update the expression schedule (always)
   const exprs = await expressionsCol();
   await exprs.updateOne(
     { _id: oid(input.expressionId) },

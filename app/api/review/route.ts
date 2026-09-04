@@ -12,10 +12,11 @@ export async function POST(req: Request) {
     const expressionId = body?.expressionId;
     const sentence = (body?.sentence ?? "").trim();
     const result = body?.result;
-    if (!expressionId || !sentence || (result !== "Remembered" && result !== "Forgot")) {
+    if (!expressionId || (result !== "Remembered" && result !== "Forgot")) {
       return NextResponse.json({ error: "Invalid review payload" }, { status: 400 });
     }
-    await submitReview({ expressionId, sentence, result }, todayStr());
+    // sentence is optional: present for Write mode, absent for Cloze/Reverse
+    await submitReview({ expressionId, sentence: sentence || undefined, result }, todayStr());
     return NextResponse.json({ ok: true });
   } catch (err) {
     return errorResponse("Failed to submit review", err);
