@@ -21,6 +21,7 @@ function mapExpression(doc: ExpressionDoc): Expression {
     example: doc.example ?? "",
     source: doc.source ?? "",
     synonyms: doc.synonyms ?? [],
+    tags: doc.tags ?? [],
     lastReview: doc.lastReview ?? null,
     reviewCount: doc.reviewCount ?? 0,
     reviewDue: doc.reviewDue,
@@ -57,7 +58,7 @@ export async function getExpression(id: string): Promise<Expression> {
 }
 
 export async function createExpression(
-  input: { text: string; meaning: string; example: string; source: string; synonyms?: string[] },
+  input: { text: string; meaning: string; example: string; source: string; synonyms?: string[]; tags?: string[] },
   today: string,
 ): Promise<Expression> {
   const f = newExpressionFields(today);
@@ -67,6 +68,7 @@ export async function createExpression(
     example: input.example,
     source: input.source,
     synonyms: input.synonyms ?? [],
+    tags: input.tags ?? [],
     lastReview: f.lastReview,
     reviewCount: f.reviewCount,
     reviewDue: f.reviewDue,
@@ -80,7 +82,7 @@ export async function createExpression(
 
 export async function updateExpression(
   id: string,
-  input: { text: string; meaning: string; example: string; source: string; synonyms: string[] },
+  input: { text: string; meaning: string; example: string; source: string; synonyms: string[]; tags: string[] },
 ): Promise<Expression> {
   const col = await expressionsCol();
   await col.updateOne(
@@ -92,6 +94,7 @@ export async function updateExpression(
         example: input.example,
         source: input.source,
         synonyms: input.synonyms,
+        tags: input.tags,
       },
     },
   );

@@ -33,6 +33,7 @@ export function mapExpression(page: any): Expression {
     example: plain(p["Original Example"]?.rich_text),
     source: plain(p.Source?.rich_text),
     synonyms: parseSynonyms(plain(p.Synonyms?.rich_text)),
+    tags: [],
     lastReview: p["Last Review"]?.date?.start ?? null,
     reviewCount: p["Review Count"]?.number ?? 0,
     reviewDue: p["Review Due"]?.date?.start ?? page.created_time.slice(0, 10),

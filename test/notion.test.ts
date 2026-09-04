@@ -26,6 +26,7 @@ describe("mapExpression", () => {
       example: "I ran into a problem.",
       source: "YouTube",
       synonyms: ["hit a snag", "run into trouble"],
+      tags: [],
       lastReview: "2026-09-01",
       reviewCount: 3,
       reviewDue: "2026-09-04",

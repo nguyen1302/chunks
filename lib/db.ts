@@ -9,6 +9,7 @@ export interface ExpressionDoc {
   example: string;
   source: string;
   synonyms: string[];
+  tags: string[];
   lastReview: string | null;
   reviewCount: number;
   reviewDue: string;

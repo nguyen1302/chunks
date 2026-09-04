@@ -7,6 +7,7 @@ export interface Expression {
   example: string; // Original Example
   source: string; // Source ("" if absent)
   synonyms: string[]; // Synonyms (parsed from comma-separated Rich text)
+  tags: string[]; // topic tags (lowercased)
   lastReview: string | null; // "YYYY-MM-DD" or null
   reviewCount: number; // Review Count
   reviewDue: string; // "YYYY-MM-DD"

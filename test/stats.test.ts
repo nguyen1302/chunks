@@ -10,6 +10,7 @@ function expr(p: Partial<Expression> & { id: string }): Expression {
     example: p.example ?? "",
     source: p.source ?? "",
     synonyms: p.synonyms ?? [],
+    tags: p.tags ?? [],
     lastReview: p.lastReview ?? null,
     reviewCount: p.reviewCount ?? 0,
     reviewDue: p.reviewDue ?? "2026-09-04",
