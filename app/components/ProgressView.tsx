@@ -1,6 +1,7 @@
 "use client";
 import type { Stats } from "@/lib/types";
 import { formatShort } from "@/lib/dates";
+import ReminderToggle from "./ReminderToggle";
 
 const cap: React.CSSProperties = {
   fontSize: 11,
@@ -45,9 +46,13 @@ export default function ProgressView({
 
   return (
     <div style={{ paddingTop: 48 }}>
-      <h1 style={{ margin: "0 0 40px", fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: "clamp(26px, 6vw, 36px)" }}>
+      <h1 style={{ margin: "0 0 24px", fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: "clamp(26px, 6vw, 36px)" }}>
         Progress
       </h1>
+
+      <div style={{ padding: "16px 0 28px", borderBottom: "1px solid #EDE9E0", marginBottom: 24 }}>
+        <ReminderToggle />
+      </div>
 
       {/* headline tiles */}
       <div

@@ -1,8 +1,37 @@
 // Minimal service worker for installability + fast static loads.
 // Static assets: cache-first. Navigations & /api: network-first (fresh data),
 // falling back to cache/offline page when the network is unavailable.
-const CACHE = "chunks-v1";
+const CACHE = "chunks-v2";
 const SHELL = ["/", "/icon-192.png", "/icon-512.png", "/apple-touch-icon.png"];
+
+// ---- Web Push ----
+self.addEventListener("push", (event) => {
+  let data = { title: "chunks", body: "Time to review." };
+  try {
+    if (event.data) data = event.data.json();
+  } catch (e) {
+    /* keep default */
+  }
+  event.waitUntil(
+    self.registration.showNotification(data.title || "chunks", {
+      body: data.body || "Time to review.",
+      icon: "/icon-192.png",
+      badge: "/icon-192.png",
+      data: { url: data.url || "/" },
+    }),
+  );
+});
+
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+  const url = (event.notification.data && event.notification.data.url) || "/";
+  event.waitUntil(
+    self.clients.matchAll({ type: "window" }).then((cs) => {
+      for (const c of cs) if ("focus" in c) return c.focus();
+      return self.clients.openWindow(url);
+    }),
+  );
+});
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
