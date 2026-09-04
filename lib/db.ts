@@ -54,6 +54,7 @@ export async function getDb(): Promise<Db> {
       db.collection("expressions").createIndex({ reviewDue: 1 }),
       db.collection("expressions").createIndex({ added: -1 }),
       db.collection("reviewExamples").createIndex({ expressionId: 1, reviewDate: -1 }),
+      db.collection("pushSubscriptions").createIndex({ endpoint: 1 }, { unique: true }),
     ]).catch(() => {
       indexesEnsured = false; // retry next call if index creation failed
     });
@@ -67,4 +68,15 @@ export async function expressionsCol(): Promise<Collection<ExpressionDoc>> {
 
 export async function reviewExamplesCol(): Promise<Collection<ReviewExampleDoc>> {
   return (await getDb()).collection<ReviewExampleDoc>("reviewExamples");
+}
+
+export interface PushSubscriptionDoc {
+  _id?: ObjectId;
+  endpoint: string;
+  keys: { p256dh: string; auth: string };
+  createdAt: string;
+}
+
+export async function pushSubscriptionsCol(): Promise<Collection<PushSubscriptionDoc>> {
+  return (await getDb()).collection<PushSubscriptionDoc>("pushSubscriptions");
 }
