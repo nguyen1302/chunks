@@ -2,6 +2,7 @@
 import type { Stats } from "@/lib/types";
 import { formatShort } from "@/lib/dates";
 import ReminderToggle from "./ReminderToggle";
+import StudyPlanCard from "./StudyPlanCard";
 
 const cap: React.CSSProperties = {
   fontSize: 11,
@@ -52,6 +53,10 @@ export default function ProgressView({
 
       <div style={{ padding: "16px 0 28px", borderBottom: "1px solid #EDE9E0", marginBottom: 24 }}>
         <ReminderToggle />
+      </div>
+
+      <div style={{ padding: "0 0 28px", borderBottom: "1px solid #EDE9E0", marginBottom: 24 }}>
+        <StudyPlanCard />
       </div>
 
       {/* headline tiles */}

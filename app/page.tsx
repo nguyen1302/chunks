@@ -31,8 +31,17 @@ export default function Page() {
     setAll(res.ok ? await res.json() : []);
   }, []);
 
+  // On load, run the daily study drip (activate today's new words), then load
+  // the queue so newly-activated words are included.
   useEffect(() => {
-    loadQueue();
+    (async () => {
+      try {
+        await fetch("/api/study/tick");
+      } catch {
+        /* drip is best-effort */
+      }
+      loadQueue();
+    })();
   }, [loadQueue]);
   useEffect(() => {
     if (view === "stats") loadStats();

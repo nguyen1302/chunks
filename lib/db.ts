@@ -55,6 +55,8 @@ export async function getDb(): Promise<Db> {
       db.collection("expressions").createIndex({ added: -1 }),
       db.collection("reviewExamples").createIndex({ expressionId: 1, reviewDate: -1 }),
       db.collection("pushSubscriptions").createIndex({ endpoint: 1 }, { unique: true }),
+      db.collection("wordbank").createIndex({ status: 1, order: 1 }),
+      db.collection("wordbank").createIndex({ word: 1 }, { unique: true }),
     ]).catch(() => {
       indexesEnsured = false; // retry next call if index creation failed
     });
@@ -79,4 +81,33 @@ export interface PushSubscriptionDoc {
 
 export async function pushSubscriptionsCol(): Promise<Collection<PushSubscriptionDoc>> {
   return (await getDb()).collection<PushSubscriptionDoc>("pushSubscriptions");
+}
+
+export interface WordbankDoc {
+  _id?: ObjectId;
+  word: string;
+  pos: string;
+  level: string; // A1..B2
+  meaning_vi: string;
+  example: string;
+  collocation: string;
+  source: string; // "oxford3000"
+  status: "dormant" | "active";
+  order: number; // global A1->B2 index
+}
+
+export async function wordbankCol(): Promise<Collection<WordbankDoc>> {
+  return (await getDb()).collection<WordbankDoc>("wordbank");
+}
+
+export interface StudyPlanDoc {
+  _id?: string;
+  enabled: boolean;
+  newPerDay: number;
+  startLevel: string;
+  lastActivatedDate: string | null;
+}
+
+export async function studyPlanCol(): Promise<Collection<StudyPlanDoc>> {
+  return (await getDb()).collection<StudyPlanDoc>("studyPlan");
 }

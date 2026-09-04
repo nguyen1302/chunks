@@ -63,3 +63,11 @@ export interface Stats {
   }>;
   last14Days: number[]; // length 14, oldest -> newest, review counts
 }
+
+export interface StudyProgress {
+  enabled: boolean;
+  newPerDay: number;
+  startLevel: string;
+  levels: Array<{ level: string; total: number; activated: number; mastered: number }>;
+  dormantRemaining: number;
+}
