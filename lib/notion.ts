@@ -3,6 +3,7 @@ import type { Expression, ExpressionWithStats, ReviewExample, ReviewResult, Stat
 import { computeNextReview, newExpressionFields } from "./schedule";
 import { diffDays } from "./dates";
 import { parseSynonyms, formatSynonyms } from "./synonyms";
+import { masteryBucket, computeStreak } from "./stats";
 
 const DB_EXPR = () => requireEnv("NOTION_DB_EXPRESSIONS");
 const DB_EXAMPLES = () => requireEnv("NOTION_DB_REVIEW_EXAMPLES");
@@ -190,26 +191,52 @@ export async function getStats(today: string): Promise<Stats> {
       graded++;
     }
   }
+  const forgot = graded - remembered;
   const rememberedRate = graded ? remembered / graded : 0;
+
+  // Mastery distribution by SR level.
+  const mastery = { new: 0, learning: 0, solid: 0, mastered: 0 };
+  for (const x of exprs) mastery[masteryBucket(x.level)]++;
+
+  // Activity metrics.
+  let reviewsToday = 0;
+  let reviewsThisWeek = 0;
+  for (const e of examples) {
+    if (e.result !== "Remembered" && e.result !== "Forgot") continue; // graded only
+    if (!e.reviewDate) continue;
+    const ago = diffDays(today, e.reviewDate);
+    if (ago === 0) reviewsToday++;
+    if (ago >= 0 && ago < 7) reviewsThisWeek++;
+  }
+  const dueToday = exprs.filter((x) => x.reviewDue <= today).length;
+  const activity = { reviewsToday, reviewsThisWeek, totalReviews: graded, dueToday };
+
+  // Streak from any day with at least one review example.
+  const streak = computeStreak(
+    examples.map((e) => e.reviewDate).filter(Boolean),
+    today,
+  );
 
   const tally = tallyByExpression(examples);
   const byId = new Map(exprs.map((x) => [x.id, x]));
   const needsAttention = [...tally.entries()]
-    .map(([id, t]) => ({ id, ...t, total: t.remembered + t.forgot }))
-    .filter((t) => t.total >= 2) // spec §7: require >= 2 completed reviews
+    .map(([id, t]) => {
+      const x = byId.get(id);
+      return { id, ...t, total: t.remembered + t.forgot, level: x?.level ?? 0, due: x?.reviewDue ?? today, text: x?.text ?? "" };
+    })
+    // only genuinely weak: has forgotten at least once, or still low level
+    .filter((t) => t.total >= 1 && (t.forgot > 0 || t.level < 3))
     .map((t) => ({
       id: t.id,
-      text: byId.get(t.id)?.text ?? "",
+      text: t.text,
       remembered: t.remembered,
       forgot: t.forgot,
       forgotRate: t.forgot / t.total,
+      level: t.level,
+      due: t.due,
     }))
-    .sort(
-      (a, b) =>
-        b.forgotRate - a.forgotRate ||
-        b.forgot + b.remembered - (a.forgot + a.remembered),
-    )
-    .slice(0, 5);
+    .sort((a, b) => b.forgotRate - a.forgotRate || a.level - b.level || b.forgot - a.forgot)
+    .slice(0, 8);
 
   const last14Days = new Array(14).fill(0);
   for (const e of examples) {
@@ -218,7 +245,18 @@ export async function getStats(today: string): Promise<Stats> {
     if (d >= 0 && d < 14) last14Days[13 - d] += 1;
   }
 
-  return { total, sentences, rememberedRate, needsAttention, last14Days };
+  return {
+    total,
+    sentences,
+    rememberedRate,
+    remembered,
+    forgot,
+    mastery,
+    activity,
+    streak,
+    needsAttention,
+    last14Days,
+  };
 }
 
 // Per-expression graded tally (Remembered/Forgot only; nulls ignored).

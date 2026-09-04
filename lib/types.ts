@@ -40,13 +40,25 @@ export interface ScheduleUpdate {
 export interface Stats {
   total: number; // statTotal
   sentences: number; // statSentences (count of review examples)
-  rememberedRate: number; // 0..1 over all completed reviews
+  rememberedRate: number; // 0..1 over graded reviews
+  remembered: number; // total graded Remembered
+  forgot: number; // total graded Forgot
+  mastery: { new: number; learning: number; solid: number; mastered: number };
+  activity: {
+    reviewsToday: number;
+    reviewsThisWeek: number; // last 7 days incl. today
+    totalReviews: number; // graded reviews all-time
+    dueToday: number; // expressions with Review Due <= today
+  };
+  streak: { current: number; best: number };
   needsAttention: Array<{
     id: string;
     text: string;
     forgot: number;
     remembered: number;
     forgotRate: number;
+    level: number;
+    due: string; // "YYYY-MM-DD"
   }>;
   last14Days: number[]; // length 14, oldest -> newest, review counts
 }
