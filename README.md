@@ -88,6 +88,26 @@ It runs standalone (own icon, no browser chrome). A service worker caches the
 app shell for fast loads; data still comes live from Notion via `/api/*`.
 Regenerate icons with `npm run gen:icons`.
 
+## Backups
+
+The free Atlas tier (M0) has no automated backups, so a local weekly snapshot
+runs on this machine.
+
+- **Manual snapshot:** `npm run backup` → writes an EJSON dump of every
+  collection to `~/chunks-backups/chunks-<timestamp>.ejson` (keeps the last 8).
+- **Restore:** `npm run restore ~/chunks-backups/<file>.ejson --yes`
+  (destructive — replaces current collections with the snapshot).
+- **Weekly schedule:** a launchd agent (`scripts/tech.bktech.chunks-backup.plist`,
+  installed at `~/Library/LaunchAgents/`) runs the backup every Sunday 09:00.
+  Log at `~/chunks-backups/backup.log`. To (re)install on a machine:
+
+  ```bash
+  cp scripts/tech.bktech.chunks-backup.plist ~/Library/LaunchAgents/
+  # edit the node path + project path inside the plist if they differ, then:
+  launchctl unload ~/Library/LaunchAgents/tech.bktech.chunks-backup.plist 2>/dev/null
+  launchctl load -w ~/Library/LaunchAgents/tech.bktech.chunks-backup.plist
+  ```
+
 ## Deploy on Vercel
 
 1. Import the repository into Vercel.

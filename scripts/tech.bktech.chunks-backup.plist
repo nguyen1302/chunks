@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>tech.bktech.chunks-backup</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/nxn1302/.nvm/versions/node/v22.20.0/bin/node</string>
+    <string>/Users/nxn1302/WorkSpace/Personal/chunks/scripts/backup.mjs</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/nxn1302/WorkSpace/Personal/chunks</string>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key>
+    <integer>0</integer>
+    <key>Hour</key>
+    <integer>9</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>RunAtLoad</key>
+  <false/>
+  <key>StandardOutPath</key>
+  <string>/Users/nxn1302/chunks-backups/backup.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/nxn1302/chunks-backups/backup.log</string>
+</dict>
+</plist>
