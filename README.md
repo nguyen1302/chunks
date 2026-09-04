@@ -77,6 +77,17 @@ npm test         # unit tests (schedule, dates, Notion mappers)
 npm run build    # production build
 ```
 
+## Install as an app (PWA)
+
+chunks is an installable PWA — no App Store needed:
+
+- **iOS (Safari):** Share → *Add to Home Screen*.
+- **Android/Desktop (Chrome):** address-bar *Install* icon, or menu → *Install app*.
+
+It runs standalone (own icon, no browser chrome). A service worker caches the
+app shell for fast loads; data still comes live from Notion via `/api/*`.
+Regenerate icons with `npm run gen:icons`.
+
 ## Deploy on Vercel
 
 1. Import the repository into Vercel.
